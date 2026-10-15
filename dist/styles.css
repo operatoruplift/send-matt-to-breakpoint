@@ -130,8 +130,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .proof-list .icon { width: 20px; height: 20px; margin-top: 2px; color: var(--purple); }
 .proof-list a { text-decoration: underline; text-underline-offset: 4px; text-decoration-color: #bca4d5; }
 .proof-list a:hover { color: var(--purple); }
-.journey { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)) minmax(0, 1.3fr); margin-top: 54px; }
-.journey li { position: relative; padding-top: 25px; font-size: 16px; font-weight: 600; line-height: 1.5; }
+.journey { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)) minmax(0, 1.25fr); margin-top: 54px; }
+.journey li { position: relative; padding: 25px 12px 0 0; font-size: 16px; font-weight: 600; line-height: 1.5; }
 .journey li::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: var(--line); }
 .journey li::after { content: ''; position: absolute; top: -4px; left: 0; width: 9px; height: 9px; border-radius: 50%; background: #bca4d5; }
 .journey li:last-child::before { display: none; }
@@ -264,6 +264,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .hero-actions { gap: 10px; }
   .hero-actions .button { padding-inline: 17px; }
   .section { padding-block: 75px; }
+  .journey { grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: 32px; }
+  .journey li:nth-child(4)::before { display: none; }
   .package-art { height: 255px; }
   .package-body { padding: 27px; }
   .price { font-size: 60px; }
@@ -330,10 +332,11 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .proof-portrait img { width: 116px; height: 116px; }
   .proof-portrait figcaption { display: grid; justify-content: start; gap: 4px; padding: 0; }
   .proof-list { gap: 14px; margin-top: 23px; }
-  .journey { grid-template-columns: 1fr; margin-top: 33px; }
+  .journey { grid-template-columns: 1fr; row-gap: 0; margin-top: 33px; }
   .journey li { min-height: 42px; padding: 0 0 18px 27px; font-size: 15px; }
   .journey li::before { top: 10px; bottom: -10px; right: auto; width: 1px; height: auto; }
   .journey li::after { top: 7px; left: -4px; }
+  .journey li:nth-child(4)::before { display: block; }
   .journey li:last-child { min-height: 0; padding-bottom: 0; }
   .content-proof { padding-bottom: 56px; }
   .content-heading { display: block; margin-bottom: 20px; }
