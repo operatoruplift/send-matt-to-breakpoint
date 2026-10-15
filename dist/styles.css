@@ -114,9 +114,10 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .hero-copy { position: relative; z-index: 2; min-width: 0; }
 .hero h1 { color: var(--ink); font-size: clamp(56px, 6vw, 82px); font-weight: 400; line-height: 1.025; letter-spacing: -.055em; margin-left: -4px; }
 .hero h1 span { color: var(--purple); }
-.badges { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 29px; }
-.badges li { display: inline-flex; align-items: center; gap: 7px; min-height: 36px; padding: 6px 10px; border: 1px solid #d8c7e8; border-radius: 4px; background: #fbf8ff; color: var(--muted); font-size: 14px; line-height: 1.5; }
-.badges .icon, .badges svg { width: 17px; height: 17px; color: var(--purple); flex-shrink: 0; }
+.badges { display: grid; grid-template-columns: repeat(3, minmax(0, max-content)); gap: 6px; margin-top: 29px; }
+.badges li { display: flex; align-items: center; justify-content: center; gap: 4px; min-width: 0; min-height: 28px; padding: 5px 7px; border: 1px solid #d8c7e8; border-radius: 4px; background: #fbf8ff; color: var(--muted); font-size: 12px; line-height: 1.35; }
+.badges span { min-width: 0; }
+.badges .icon, .badges svg { width: 13px; height: 13px; color: var(--purple); flex-shrink: 0; }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 27px; }
 .hero-product { position: relative; min-width: 0; margin: 0; padding-top: 15px; }
 .hero-product::before { content: ''; position: absolute; z-index: 0; top: 0; right: 18px; width: 90px; height: 90px; background: var(--lime); clip-path: polygon(0 0, 60% 0, 60% 25%, 100% 25%, 100% 100%, 25% 100%, 25% 60%, 0 60%); }
@@ -127,6 +128,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .logo-placement span { white-space: nowrap; }
 
 /* The founder and work behind the sponsorship. */
+.journey-section { padding-block: 48px 40px; border-top: 1px solid var(--line); }
 .proof { border-top: 1px solid var(--line); }
 .proof-grid { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); align-items: center; gap: 64px; }
 .proof-portrait { padding: 12px; background: var(--lilac); }
@@ -140,7 +142,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .proof-list .icon { width: 20px; height: 20px; margin-top: 2px; color: var(--purple); }
 .proof-list a { text-decoration: underline; text-underline-offset: 4px; text-decoration-color: #bca4d5; }
 .proof-list a:hover { color: var(--purple); }
-.journey { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)) minmax(0, 1.25fr); margin-top: 54px; }
+.journey { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)) minmax(0, 1.25fr); }
 .journey li { position: relative; padding: 25px 12px 0 0; font-size: 16px; font-weight: 600; line-height: 1.5; }
 .journey li::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: var(--line); }
 .journey li::after { content: ''; position: absolute; top: -4px; left: 0; width: 9px; height: 9px; border-radius: 50%; background: #bca4d5; }
@@ -278,8 +280,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .site-header { gap: 25px; }
   .hero-inner { min-height: 655px; padding-block: 66px; gap: 30px; }
   .hero h1 { font-size: clamp(49px, 5.9vw, 65px); }
-  .badges { gap: 8px; }
-  .badges li { font-size: 14px; padding-inline: 8px; }
+  .badges { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; }
+  .badges li { font-size: 11px; padding-inline: 5px; }
   .hero-actions { gap: 10px; }
   .hero-actions .button { padding-inline: 17px; }
   .section { padding-block: 75px; }
@@ -297,7 +299,6 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .brand { font-size: 16px; }
   .hero-inner { min-height: 610px; gap: 24px; }
   .hero h1 { font-size: clamp(44px, 5.7vw, 50px); }
-  .badges { gap: 7px; }
   .hero-actions { flex-wrap: wrap; }
   .hero-actions .button { padding-inline: 16px; font-size: 14px; }
   .logo-placement { padding: 4px; font-size: 14px; }
@@ -337,9 +338,9 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .header-cta { min-height: 44px; font-size: 14px; padding: 10px 12px; }
   .hero-inner { display: block; min-height: 0; padding-block: 43px 30px; }
   .hero h1 { max-width: 550px; margin-left: -2px; font-size: clamp(42px, 10.8vw, 68px); line-height: 1.025; letter-spacing: -.075em; }
-  .badges { gap: 8px; margin-top: 24px; }
-  .badges li { min-height: 35px; font-size: 14px; padding: 6px 9px; }
-  .badges .icon, .badges svg { width: 16px; height: 16px; }
+  .badges { gap: 5px; margin-top: 24px; }
+  .badges li { gap: 4px; min-height: 34px; padding: 5px; font-family: var(--font); font-size: 11px; text-align: center; }
+  .badges .icon, .badges svg { width: 11px; height: 11px; }
   .hero-actions { flex-wrap: nowrap; gap: 9px; margin-top: 22px; }
   .hero-actions .button { flex: 1; gap: 6px; min-height: 51px; padding: 13px 8px; font-size: 13px; white-space: nowrap; }
   .hero-actions .button svg { width: 16px; height: 16px; }
@@ -353,7 +354,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .proof-portrait img { width: 116px; height: 116px; }
   .proof-portrait figcaption { display: grid; justify-content: start; gap: 4px; padding: 0; }
   .proof-list { gap: 14px; margin-top: 23px; }
-  .journey { grid-template-columns: 1fr; row-gap: 0; margin-top: 33px; }
+  .journey-section { padding-block: 36px; }
+  .journey { grid-template-columns: 1fr; row-gap: 0; }
   .journey li { min-height: 42px; padding: 0 0 18px 27px; font-size: 15px; }
   .journey li::before { top: 10px; bottom: -10px; right: auto; width: 1px; height: auto; }
   .journey li::after { top: 7px; left: -4px; }

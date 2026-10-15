@@ -1,18 +1,27 @@
-/* Only the route markers move; every city stays readable throughout. */
+/* The route repeats after a quiet hold and fade; city labels never move or hide. */
 .journey.is-journey-playing li::before {
   background: linear-gradient(var(--purple), var(--purple)) left top / 0% 100% no-repeat, var(--line);
-  animation: journey-track 400ms ease-out calc(var(--journey-delay) + 160ms) forwards;
+  animation: journey-track 700ms ease-in-out calc(var(--journey-delay) + 150ms) forwards;
 }
 .journey.is-journey-playing li::after {
-  animation: journey-stop 550ms ease-out var(--journey-delay) both;
+  animation: journey-stop 850ms ease-in-out var(--journey-delay) both;
 }
 .journey.is-journey-playing .journey-next .icon {
   transform-origin: center;
-  animation: journey-takeoff 1100ms cubic-bezier(.22, .61, .36, 1) var(--journey-delay) both;
+  animation: journey-takeoff 1800ms cubic-bezier(.22, .61, .36, 1) var(--journey-delay) both;
 }
 .journey.is-journey-complete li::before,
 .journey.is-journey-complete li::after { background: var(--purple); }
-.journey.is-journey-complete .journey-next::after { box-shadow: 0 0 0 5px var(--lilac); }
+.journey.is-journey-complete li::after { box-shadow: 0 0 0 3px var(--lilac); }
+.journey.is-journey-resetting li::before {
+  background: var(--line);
+  transition: background-color 600ms ease-in-out;
+}
+.journey.is-journey-resetting li::after {
+  background: #bca4d5;
+  box-shadow: 0 0 0 0 transparent;
+  transition: background-color 600ms ease-in-out, box-shadow 600ms ease-in-out;
+}
 
 @keyframes journey-track {
   to { background-size: 100% 100%; }
@@ -33,6 +42,8 @@
 }
 @media (prefers-reduced-motion: reduce), print {
   .journey.is-journey-playing li::before,
-  .journey.is-journey-playing li::after { animation: none; background: var(--purple); }
+  .journey.is-journey-playing li::after,
+  .journey.is-journey-resetting li::before,
+  .journey.is-journey-resetting li::after { animation: none; transition: none; background: var(--purple); }
   .journey.is-journey-playing .journey-next .icon { animation: none; transform: none; }
 }

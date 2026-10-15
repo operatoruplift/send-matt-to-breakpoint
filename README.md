@@ -15,7 +15,7 @@ Public source: https://github.com/operatoruplift/send-matt-to-breakpoint
 - `dist/index.html` — page content, sponsorship packages and social metadata
 - `dist/styles.css` — responsive layout and visual styling
 - `dist/site.js` — sponsorship video dialog
-- `dist/journey.js` and `dist/journey.css` — one-time journey animation with reduced-motion support
+- `dist/journey.js` and `dist/journey.css` — repeating journey animation with visibility and reduced-motion support
 - `dist/assets/` — locally served images, fonts, illustrations and sponsorship video
 - `vercel.json` — static deployment configuration
 
