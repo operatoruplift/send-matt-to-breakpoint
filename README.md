@@ -6,6 +6,10 @@ Primary domain: https://breakpoint.rvaclassic.xyz
 
 Additional domain: https://rvaclassic.xyz
 
+Vercel address: https://send-matt-to-breakpoint.vercel.app
+
+Public source: https://github.com/operatoruplift/send-matt-to-breakpoint
+
 ## Site files
 
 - `dist/index.html` — page content, sponsorship packages and social metadata
