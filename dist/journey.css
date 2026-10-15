@@ -1,0 +1,38 @@
+/* Only the route markers move; every city stays readable throughout. */
+.journey.is-journey-playing li::before {
+  background: linear-gradient(var(--purple), var(--purple)) left top / 0% 100% no-repeat, var(--line);
+  animation: journey-track 400ms ease-out calc(var(--journey-delay) + 160ms) forwards;
+}
+.journey.is-journey-playing li::after {
+  animation: journey-stop 550ms ease-out var(--journey-delay) both;
+}
+.journey.is-journey-playing .journey-next .icon {
+  transform-origin: center;
+  animation: journey-takeoff 1100ms cubic-bezier(.22, .61, .36, 1) var(--journey-delay) both;
+}
+.journey.is-journey-complete li::before,
+.journey.is-journey-complete li::after { background: var(--purple); }
+.journey.is-journey-complete .journey-next::after { box-shadow: 0 0 0 5px var(--lilac); }
+
+@keyframes journey-track {
+  to { background-size: 100% 100%; }
+}
+@keyframes journey-stop {
+  0% { background: #bca4d5; box-shadow: 0 0 0 0 transparent; }
+  45% { background: var(--purple); box-shadow: 0 0 0 7px var(--lilac); }
+  100% { background: var(--purple); box-shadow: 0 0 0 3px var(--lilac); }
+}
+@keyframes journey-takeoff {
+  0%, 12% { transform: translate(0, 0) rotate(0); }
+  55% { transform: translate(10px, -16px) rotate(-16deg); }
+  100% { transform: translate(0, 0) rotate(0); }
+}
+
+@media (max-width: 700px) {
+  .journey.is-journey-playing li::before { background-size: 100% 0%; }
+}
+@media (prefers-reduced-motion: reduce), print {
+  .journey.is-journey-playing li::before,
+  .journey.is-journey-playing li::after { animation: none; background: var(--purple); }
+  .journey.is-journey-playing .journey-next .icon { animation: none; transform: none; }
+}
