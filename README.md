@@ -48,7 +48,7 @@ The All in One Day graphic and 88-second sponsorship video were supplied by Matt
 
 ## Portfolio and domain routing
 
-`dist/portfolio/` contains Matt’s portfolio, with the attached sky/projector hero and Builder, Founder, and Creator sections adapted to his real work. The $50 website package includes domain, hosting, and maintenance for now, with delivery timing agreed before kickoff. Product accounts and waitlist numbers are separate; AI review is described as one verification signal. Historical Velocity Esports partnerships are labeled separately from Operator Uplift’s use of Solana. Press entries and additional testimonials require original sources before inclusion.
+`dist/portfolio/` contains Matt’s portfolio, with the attached sky/projector hero and Builder, Founder, and Creator sections adapted to his real work. The $50 website package includes domain, hosting, and maintenance for now, with delivery timing agreed before kickoff. Product accounts and waitlist numbers are separate; AI review is described as one verification signal. Historical Velocity Esports partnerships are labeled separately from Operator Uplift’s use of Solana. The Articles section links to original features from CEO Weekly, Voyage New York, and New York Weekly supplied by Matt. Each is labeled branded content, matching its publication’s disclosure. Additional testimonials require original sources before inclusion.
 
 `vercel.json` routes the apex domain to the portfolio before filesystem handling. The Breakpoint subdomain and Vercel address continue to serve the sponsor page. Shared assets stay under `dist/assets/`.
 
