@@ -3,5 +3,20 @@
   "framework": null,
   "buildCommand": "",
   "installCommand": "",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "routes": [
+    {
+      "src": "^/(?:index\\.html)?$",
+      "has": [
+        {
+          "type": "host",
+          "value": "rvaclassic\\.xyz"
+        }
+      ],
+      "dest": "/portfolio/index.html"
+    },
+    {
+      "handle": "filesystem"
+    }
+  ]
 }

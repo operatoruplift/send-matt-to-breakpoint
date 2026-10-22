@@ -447,3 +447,5 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .meadow-footer { min-height: 0; padding-block: 30px; }
   .package, .support-card { break-inside: avoid; }
 }
+
+.video-allocation-note { margin-top: 16px; padding: 12px 16px; border-left: 3px solid var(--purple); background: var(--lilac); font-size: 14px; line-height: 1.6; }
