@@ -3,12 +3,12 @@
 .p-builds-heading { display:flex; align-items:baseline; justify-content:space-between; gap:24px; margin-bottom:24px; }
 .p-builds-heading h3 { max-width:600px; font-size:clamp(28px,3.6vw,42px); font-weight:500; line-height:1.12; letter-spacing:-.035em; }
 .p-builds-heading p { max-width:300px; color:var(--p-muted); font-size:14px; font-weight:300; line-height:1.6; }
-.p-client-sites { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; }
-.p-client-site { min-width:0; overflow:hidden; border:1px solid var(--p-line); border-radius:20px; background:#141416; }
-.p-client-site-image { display:block; aspect-ratio:16/10; overflow:hidden; border-bottom:1px solid var(--p-line); background:#211b2b; }
+.p-client-sites { display:grid; grid-template-columns:1fr; }
+.p-client-site { display:grid; grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr); min-width:0; overflow:hidden; border:1px solid var(--p-line); border-radius:20px; background:#141416; }
+.p-client-site-image { display:block; aspect-ratio:16/10; overflow:hidden; border-right:1px solid var(--p-line); background:#211b2b; }
 .p-client-site-image img { width:100%; height:100%; object-fit:cover; object-position:top; transition:transform .4s ease; }
 .p-client-site-image:hover img { transform:scale(1.025); }
-.p-client-site-copy { padding:25px 26px 28px; }
+.p-client-site-copy { display:flex; flex-direction:column; align-items:flex-start; justify-content:center; padding:25px 32px 28px; }
 .p-client-site-copy h4 { font-size:27px; font-weight:500; line-height:1.16; letter-spacing:-.025em; }
 .p-client-site-copy>p { margin-top:12px; color:var(--p-muted); font-size:15px; font-weight:300; line-height:1.6; }
 .p-client-site-deliverables { display:flex; flex-wrap:wrap; gap:6px 16px; margin:18px 0 23px; padding:0; list-style:none; color:var(--p-purple); font-size:12px; font-weight:400; line-height:1.6; }
@@ -39,7 +39,8 @@
   .p-builds-heading { flex-direction:column; gap:13px; margin-bottom:22px; }
   .p-builds-heading h3 { font-size:31px; }
   .p-builds-heading p { max-width:460px; }
-  .p-client-sites { grid-template-columns:1fr; gap:18px; }
+  .p-client-site { grid-template-columns:1fr; }
+  .p-client-site-image { border-right:0; border-bottom:1px solid var(--p-line); }
   .p-client-site-copy { padding:23px 24px 26px; }
   .p-client-site-copy h4 { font-size:26px; }
   .p-build-catalog summary { gap:12px; padding:23px 22px; }
