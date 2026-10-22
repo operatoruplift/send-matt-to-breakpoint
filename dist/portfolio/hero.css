@@ -242,3 +242,32 @@ html.p-hero-entrance-pending .p-hero-nav a { translate: calc(-7 * var(--p-t)) 0;
   html.p-hero-entrance-pending .p-hero-scene-assembly,
   html.p-hero-entrance-pending .p-hero-nav a { opacity: 1 !important; translate: none !important; scale: none !important; clip-path: none !important; will-change: auto !important; }
 }
+
+/* Keep the original scene while giving the outcome-led introduction room. */
+.p-hero-outcomes .p-hero-intro { top:24px; }
+.p-hero-outcomes .p-hero-hi { top:0; font-family:var(--p-sans); font-size:14px; font-style:normal; letter-spacing:.03em; transform:translateX(-50%); }
+.p-hero-outcomes .p-hero-name { top:32px; width:min(1080px,calc(100% - 64px)); font-family:var(--p-sans); font-size:clamp(30px,3.5vw,46px); font-weight:500; line-height:1.1; letter-spacing:-.035em; white-space:normal; text-align:center; transform:translateX(-50%); text-wrap:balance; }
+.p-hero-outcomes .p-hero-name span { display:block; }
+.p-hero-outcomes .p-hero-role { top:148px; width:calc(100% - 64px); font-size:14px; line-height:1.5; white-space:normal; transform:translateX(-50%); }
+@media(min-width:700px) and (min-aspect-ratio:19/20) and (min-height:381px) {
+  .p-hero-outcomes .p-hero-scene { width:calc(949 * var(--p-u)); margin-left:calc(-498 * var(--p-u)); }
+  .p-hero-outcomes .p-hero-skirt { width:calc(753 * var(--p-u)); left:calc(50% - 373 * var(--p-u)); }
+}
+@media(max-aspect-ratio:19/20) and (min-width:700px) {
+  .p-hero-outcomes .p-hero-intro { top:44px; }
+  .p-hero-outcomes .p-hero-role { top:170px; max-width:610px; }
+}
+@media(max-width:699px) and (min-height:381px) {
+  .p-hero-outcomes .p-hero-intro { top:30px; }
+  .p-hero-outcomes .p-hero-hi { font-size:13px; }
+  .p-hero-outcomes .p-hero-name { top:32px; width:calc(100% - 36px); font-size:clamp(26px,7.2vw,37px); line-height:1.1; }
+  .p-hero-outcomes .p-hero-role { top:186px; width:calc(100% - 44px); font-size:13px; line-height:1.5; }
+}
+@media(min-aspect-ratio:19/20) and (max-height:380px) {
+  .p-hero-outcomes .p-hero-intro { top:20px; width:46vw; }
+  .p-hero-outcomes .p-hero-hi { font-size:12px; }
+  .p-hero-outcomes .p-hero-name { top:28px; width:calc(100% - 28px); font-size:24px; line-height:1.08; }
+  .p-hero-outcomes .p-hero-role { top:152px; width:calc(100% - 32px); font-size:11px; line-height:1.45; }
+  .p-hero-outcomes .p-hero-nav { left:24px; bottom:12px; height:24px; display:flex; gap:15px; width:calc(100% - 48px); font-size:12px; align-items:center; }
+  .p-hero-outcomes .p-hero-nav a { position:static; font-family:var(--p-sans); font-size:12px; letter-spacing:0; }
+}
