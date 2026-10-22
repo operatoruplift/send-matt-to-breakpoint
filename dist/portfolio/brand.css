@@ -1,0 +1,61 @@
+/* RVAClassic — Terminal Mint / Obsidian. Portfolio-only brand layer. */
+:root { --rva-mint:#10b981; --rva-white:#f4f4f6; --rva-obsidian:#0a0a0c; --rva-graphite:#1f1f23; --rva-mint-on-light:#08735c; }
+html,body { background:var(--rva-obsidian); }
+.p-body { --p-bg:var(--rva-obsidian); --p-ink:var(--rva-white); --p-muted:#adb5b2; --p-line:#303633; --p-accent:var(--rva-mint); font-family:'Space Grotesk',sans-serif; }
+.p-skip { background:var(--rva-white); color:var(--rva-obsidian); font-family:'Space Grotesk',sans-serif; }
+.p-display { font-family:'Saira',sans-serif; font-weight:700; letter-spacing:-.045em; }
+.p-hero { --p-sans:'Space Grotesk',sans-serif; --p-serif:'Saira',sans-serif; background:var(--rva-obsidian); }
+.p-hero-sky { filter:grayscale(1); opacity:.25; }
+.p-hero::after { content:''; position:absolute; z-index:-1; inset:0; pointer-events:none; background:radial-gradient(ellipse at 50% 62%,#10b98130,transparent 64%); }
+.p-hero-scene-assembly { filter:grayscale(1); }
+.p-hero-skirt { background:linear-gradient(90deg,#cdd9d4,#8a9e93); }
+.p-hero-marquee-run span { color:#10b98142; }
+.p-hero-nav a { font-family:'Space Grotesk',sans-serif; }
+.p-hero-nav .p-hero-home { font-family:'Saira',sans-serif; }
+.p-hero-nav a:hover { color:#74e0b9; }
+.p-identity { position:absolute; z-index:5; top:24px; left:24px; display:block; width:64px; height:64px; border-radius:50%; }
+.p-identity img { display:block; width:100%; height:100%; }
+.p-identity:focus-visible,.p-brand-kit-link:focus-visible { outline:3px solid var(--rva-mint); outline-offset:5px; }
+.p-brand-kit-link { position:absolute; z-index:5; top:30px; right:28px; color:var(--rva-white); font:400 12px/1.5 'Space Grotesk',sans-serif; text-decoration:underline; text-underline-offset:4px; }
+.p-brand-kit-link:hover { color:var(--rva-mint); }
+.p-video-one { background:#a9e9ce; color:#082c20!important; }
+.p-video-two { background:#d5e5df; color:#172e25!important; }
+.p-contact-button { border-color:var(--rva-mint); background:var(--rva-mint); color:var(--rva-obsidian)!important; }
+.p-contact-button:hover { background:#37c99b; }
+.p-services { background:var(--rva-white); color:var(--rva-obsidian); }
+.p-services .p-contact-button { background:var(--rva-obsidian); border-color:var(--rva-obsidian); color:var(--rva-white)!important; }
+.p-services .p-contact-button:hover { background:#173e30; }
+.p-services a:focus-visible { outline-color:var(--rva-mint-on-light); }
+.p-builder-results { display:block; }
+.p-award-list { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; border:0; }
+.p-award-list li { border:1px solid var(--p-line); border-radius:16px; background:#141817; }
+.p-award-list a,.p-award-item { display:flex; flex-direction:column; gap:12px; height:100%; padding:24px; }
+.p-award-list span { grid-row:auto; align-self:flex-start; font-size:12px; }
+.p-award-list strong { font-size:21px; }
+.p-award-list small { margin-top:auto; padding-top:8px; font-size:12px; }
+.p-grant-note { font-size:13px; }
+.p-hackathon-catalog-sponsor { margin-top:5px; color:var(--p-accent); font-size:12px; line-height:1.5; }
+.p-seasonal-ranks { margin-top:17px!important; color:#c4d1cb!important; font-size:15px!important; line-height:1.65; }
+.p-brand-solana { border-left:0; padding-left:0; }
+.p-press-image { width:100%; height:auto; aspect-ratio:2/1; object-fit:contain; padding:32px; background:#0a0a0c; border-bottom:1px solid var(--p-line); }
+.p-creator-partners a,.p-experience-catalog li a { text-decoration-color:#4a7563; }
+.p-interview-action,.p-build-visit { color:#bcdece; }
+.p-footer-bottom { flex-wrap:wrap; gap:16px 28px; }
+@media(max-width:1000px) {
+  .p-award-list { gap:12px; }
+  .p-award-list a,.p-award-item { padding:20px; }
+  .p-award-list strong { font-size:19px; }
+  .p-press-image { padding:23px; }
+}
+@media(max-width:767px) {
+  .p-identity { top:18px; left:16px; width:36px; height:36px; }
+  .p-brand-kit-link { top:25px; right:18px; font-size:10px; }
+  .p-award-list { grid-template-columns:1fr; }
+  .p-award-list a,.p-award-item { padding:23px; }
+  .p-award-list strong { font-size:23px; }
+  .p-press-image { padding:30px; }
+}
+@media(min-aspect-ratio:19/20) and (max-height:380px) {
+  .p-identity { top:14px; left:14px; width:32px; height:32px; }
+  .p-brand-kit-link { top:18px; right:18px; font-size:11px; }
+}

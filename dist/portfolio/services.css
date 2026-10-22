@@ -1,0 +1,55 @@
+/* Native, keyboard-accessible package disclosures. */
+.p-services .p-service-maintenance {
+  margin:16px 0 0;
+  color:#55535b;
+  font-size:16px;
+  line-height:1.5;
+}
+.p-services .p-service-maintenance strong { color:#141318; font-weight:500; }
+.p-services .p-service-features { margin:0 0 24px; border-top:1px solid #14131826; }
+.p-services .p-service-feature { min-width:0; border-bottom:1px solid #14131826; }
+.p-services .p-service-feature summary {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  min-height:60px;
+  padding:17px 0;
+  color:#141318;
+  font-size:18px;
+  font-weight:400;
+  line-height:1.4;
+  list-style:none;
+  cursor:pointer;
+}
+.p-services .p-service-feature summary::-webkit-details-marker { display:none; }
+.p-services .p-service-feature summary::marker { content:''; }
+.p-services .p-service-feature summary>span { min-width:0; }
+.p-services .p-service-feature summary>svg {
+  flex:0 0 20px;
+  width:20px;
+  height:20px;
+  fill:none;
+  stroke:#08735c;
+  stroke-width:1.7;
+  transition:transform .2s ease;
+}
+.p-services .p-service-feature[open] summary>svg { transform:rotate(180deg); }
+.p-services .p-service-feature summary:hover { color:#08735c; }
+.p-services .p-service-feature summary:focus-visible { outline:3px solid #08735c; outline-offset:4px; }
+.p-services .p-service-feature p {
+  max-width:520px;
+  margin:0 28px 20px 0;
+  color:#55535b;
+  font-size:15px;
+  font-weight:300;
+  line-height:1.65;
+}
+@media(max-width:767px) {
+  .p-services .p-service-maintenance { margin-top:14px; font-size:15px; }
+  .p-services .p-service-feature summary { min-height:58px; padding:16px 0; font-size:17px; }
+  .p-services .p-service-feature p { margin-right:10px; font-size:14px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .p-services .p-service-feature summary>svg { transition:none; }
+}
