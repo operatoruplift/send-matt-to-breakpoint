@@ -20,6 +20,7 @@ Public source: https://github.com/operatoruplift/send-matt-to-breakpoint
 - `dist/portfolio/index.html` — outcome-led portfolio, Builder / Founder / Creator proof, and the $50 website offer
 - `dist/portfolio/hero.css` and `hero.js` — responsive sky/projector hero with reduced-motion and visibility support
 - `dist/portfolio/body.css` and `body.js` — portfolio sections and progressive entrance effects
+- `dist/portfolio/evidence.css` — event case studies, sourced hackathon results, creative portfolio links, and media appearances
 - `vercel.json` — static deployment configuration
 
 ## Local preview
@@ -52,7 +53,9 @@ The All in One Day graphic and 88-second sponsorship video were supplied by Matt
 
 `vercel.json` routes the apex domain to the portfolio before filesystem handling. The Breakpoint subdomain and Vercel address continue to serve the sponsor page. Shared assets stay under `dist/assets/`.
 
-The Featured in section also links a Web3.tv interview from Breakpoint 2025 reposted on Operator Uplift’s YouTube channel. LinkedIn reach is the rounded public-profile count displayed on October 22, 2026. The Actioners / The Residency story links Matt’s own posts documenting the rejection and later selection; it does not imply every hacker-house acceptance followed a rejection.
+The Featured in section links original interviews from Web3 TV, Ivy Tier, and Web3 Educator, plus the Outpost Lookout episode on X. The original Web3 TV upload replaces the duplicate Operator Uplift repost. Thumbnails come from those publishers’ YouTube uploads. LinkedIn reach is the rounded public-profile count displayed on October 22, 2026. The Actioners / The Residency story links Matt’s own posts documenting the rejection and later selection; other hacker-house selections are not presented as attendance.
+
+Event case-study counts and roles, clothing-brand names, and McShin Foundation roles were confirmed firsthand by Matt. RSVP counts, accepted guests, and attendance remain distinct. The uncertain founder-event prize was omitted. The Photon case links the complete client-published recap, while a separate client post supplies Matt’s camera credit. Event photos and the Render Hackathon photo come from Matt’s public posts and are compressed to WebP; interview and event videos use external links rather than embedded players. Hackathon result links distinguish winner, second place, and an award without an unsupported first-place claim. Exact MCP course titles are not invented; the public page links LinkedIn’s certifications section.
 
 The portfolio hero and decorative 3D assets use the remote URLs supplied with the templates. Playfair Display, DM Sans, Poppins, and Kanit are loaded from Google Fonts. The sponsor proof graphic was updated to one extra pass on October 22, 2026 using built-in imagegen; the existing reel carries a current-allocation notice.
 
