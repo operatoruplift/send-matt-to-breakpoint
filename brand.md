@@ -4,7 +4,7 @@ Applied October 23, 2026 from Matt’s supplied logo and brand-sheet references.
 
 The portfolio uses Terminal Mint `#10B981`, White `#F4F4F6`, Obsidian `#0A0A0C`, and Graphite `#1F1F23`. Use dark copy on mint. On light surfaces, use `#08735C` for small green text and interactive indicators. Keep external client and publication logos in their native colors.
 
-Space Grotesk is the primary UI/body family. Saira is the bold display and wordmark family. Both are open source; font files and OFL licenses are in `dist/portfolio/brand/fonts/`.
+The standalone brand kit uses Space Grotesk and Saira. Its font files and OFL licenses are in `dist/portfolio/brand/fonts/`. The portfolio retains its established Kanit body/display typography and the original colorful hero with DM Sans, Playfair Display, and Poppins. Keep brand palette changes scoped to the portfolio body; do not recolor or desaturate the hero scene.
 
 The supplied classical bust, circle, pixel grid, and star form the identity. Primary and monochrome logos are true vector paths. Preserve the circle and proportions; leave clear space. Use the small ICO/PNG exports for favicons and the primary SVG for larger display.
 
