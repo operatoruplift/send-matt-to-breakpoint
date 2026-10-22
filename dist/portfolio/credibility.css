@@ -1,0 +1,43 @@
+/* A compact overview links to the complete work and media further down. */
+.p-credibility { padding:40px 40px 0; }
+.p-credibility>.p-container { display:grid; grid-template-columns:minmax(0,1.3fr) minmax(0,1fr); gap:48px; padding-bottom:32px; border-bottom:1px solid var(--p-line); }
+.p-credibility-group { min-width:0; }
+.p-credibility-heading { display:flex; align-items:baseline; justify-content:space-between; gap:16px; margin-bottom:18px; }
+.p-credibility-heading h3 { color:var(--p-muted); font-size:14px; font-weight:400; line-height:1.5; }
+.p-credibility-heading>a { flex-shrink:0; color:var(--p-accent); font-size:12px; line-height:1.5; text-underline-offset:4px; }
+.p-credibility-logos { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:18px; }
+.p-credibility-logos a,.p-credibility-publications a { min-width:0; text-decoration:none; }
+.p-credibility-logos img { width:100%; height:36px; max-width:108px; object-fit:contain; object-position:left center; }
+.p-credibility-logos span { display:block; margin-top:9px; color:var(--p-muted); font-size:10px; line-height:1.5; }
+.p-credibility-publications { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
+.p-credibility-publications img { width:100%; height:36px; object-fit:contain; }
+.p-credibility-publications span { display:block; margin-top:9px; color:var(--p-ink); font-size:11px; line-height:1.5; }
+.p-credibility-logos a:hover span,.p-credibility-publications a:hover span { color:var(--p-accent); text-decoration:underline; text-underline-offset:3px; }
+.p-credibility-note { margin-top:9px!important; color:var(--p-muted); font-size:10px; line-height:1.5; }
+.p-builder { padding-top:56px; }
+#partnerships,#articles { scroll-margin-top:24px; }
+/* Keep a full card gap after the four interview previews. */
+.p-appearances { margin:20px 0 24px; }
+.p-founder-interview { margin:0 0 24px; }
+@media(max-width:1000px) {
+  .p-credibility>.p-container { gap:28px; }
+  .p-credibility-logos,.p-credibility-publications { gap:12px; }
+}
+@media(max-width:767px) {
+  .p-credibility { padding:30px 22px 0; }
+  .p-credibility>.p-container { grid-template-columns:1fr; gap:28px; padding-bottom:28px; }
+  .p-credibility-heading { margin-bottom:15px; }
+  .p-credibility-logos img { height:32px; }
+  .p-credibility-publications img { height:28px; }
+  .p-credibility-logos span { font-size:10px; }
+  .p-builder { padding-top:40px; }
+  .p-appearances { margin-bottom:16px; }
+  .p-founder-interview { margin-bottom:20px; }
+}
+@media(max-width:370px) {
+  .p-credibility { padding-inline:16px; }
+  .p-credibility-logos,.p-credibility-publications { gap:10px; }
+  .p-credibility-heading { gap:12px; }
+  .p-credibility-heading h3 { font-size:13px; }
+  .p-credibility-heading>a { font-size:11px; }
+}

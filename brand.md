@@ -8,8 +8,8 @@ The standalone brand kit uses Space Grotesk and Saira. Its font files and OFL li
 
 The supplied classical bust, circle, pixel grid, and star form the identity. Primary and monochrome logos are true vector paths. Preserve the circle and proportions; leave clear space. Use the small ICO/PNG exports for favicons and the primary SVG for larger display.
 
-Tagline: **Build. Compete. Execute.** Voice: direct, concrete, and specific about the work. Keep competition prize pools distinct from personal winnings, and team outcomes distinct from individual placements. Avoid invented urgency, guarantees, and social metrics.
+Tagline: **Build. Compete. Create.** Voice: direct, concrete, and specific about the work. Keep competition prize pools distinct from personal winnings, and team outcomes distinct from individual placements. Avoid invented urgency, guarantees, and social metrics.
 
 The public asset browser and eight-page guide live at `/portfolio/brand/`. The complete local handoff folder is `../rvaclassic-launch-kit/`, including 30 campaign concepts in three PNG formats, editable HTML, caption drafts, and posting calendar.
 
-The launch offer is **$100 one-time** for the website and agreed launch package; **$50/month** for maintenance. Initial hosting/domain are included for now, with scope and delivery agreed before kickoff.
+The launch offer is **$100 one-time** for the website and agreed launch package; **$50/month** for hosting and maintenance. Initial domain registration and setup are included for now; future domain renewal, scope, and delivery are agreed before kickoff.
