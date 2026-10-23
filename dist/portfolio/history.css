@@ -1,0 +1,34 @@
+/* Real event photographs and optional, user-initiated full films. */
+.p-history-photo { min-width:0; margin:0; overflow:hidden; border:1px solid var(--p-line); border-radius:18px; background:#141416; }
+.p-history-photo>a { display:block; }
+.p-history-photo img { display:block; width:100%; height:auto; }
+.p-history-photo figcaption { padding:13px 18px; color:var(--p-muted); font-size:12px; font-weight:300; line-height:1.6; }
+.p-history-photo figcaption a { color:var(--p-accent); text-underline-offset:4px; }
+.p-history-photo.p-ceremony-photo { margin-top:28px; }
+.p-ceremony-photo img { aspect-ratio:3/2; object-fit:cover; }
+.p-history-pair { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; margin-bottom:36px; }
+.p-history-pair img { aspect-ratio:3/2; object-fit:cover; }
+.p-history-photo.p-detail-photo { margin-top:22px; }
+.p-detail-photo img { aspect-ratio:4/3; object-fit:cover; object-position:50% 42%; }
+.p-education-note { margin-top:28px!important; color:var(--p-muted); font-size:14px; font-weight:300; line-height:1.7; }
+.p-education-note a { color:var(--p-accent); text-underline-offset:4px; }
+.p-award-art-link { align-self:flex-start; margin-top:7px; color:var(--p-accent); font-size:12px; line-height:1.6; text-underline-offset:4px; }
+.p-event-films { margin-top:36px; padding-top:28px; border-top:1px solid var(--p-line); }
+.p-event-films>h3 { margin-bottom:22px; font-size:28px; font-weight:500; line-height:1.2; letter-spacing:-.02em; }
+.p-event-film-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
+.p-event-film { min-width:0; margin:0; overflow:hidden; border:1px solid var(--p-line); border-radius:18px; background:#141416; }
+.p-event-film video { display:block; width:100%; height:auto; aspect-ratio:16/9; background:var(--p-bg); }
+.p-event-film figcaption { padding:20px 22px; }
+.p-event-film h4 { font-size:23px; font-weight:400; line-height:1.25; letter-spacing:-.02em; }
+.p-event-film figcaption>a { display:inline-block; margin-top:12px; color:var(--p-accent); font-size:13px; line-height:1.5; text-underline-offset:4px; }
+.p-history-photo a:focus-visible,.p-event-film a:focus-visible,.p-education-note a:focus-visible,.p-award-art-link:focus-visible { outline:3px solid var(--p-accent); outline-offset:-4px; }
+.p-event-film video:focus-visible { outline:3px solid var(--p-accent); outline-offset:-4px; }
+@media(max-width:767px) {
+  .p-history-pair,.p-event-film-grid { grid-template-columns:1fr; gap:20px; }
+  .p-history-pair { margin-bottom:28px; }
+  .p-history-photo.p-ceremony-photo { margin-top:24px; }
+  .p-history-photo figcaption { padding:12px 15px; }
+  .p-event-films { margin-top:30px; padding-top:24px; }
+  .p-event-films>h3 { font-size:26px; }
+  .p-event-film figcaption { padding:19px 21px; }
+}
