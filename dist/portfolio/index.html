@@ -28,6 +28,7 @@
 <link rel="stylesheet" href="/portfolio/awards.css">
 <link rel="stylesheet" href="/portfolio/projects.css">
 <link rel="stylesheet" href="/portfolio/build-previews.css">
+<link rel="stylesheet" href="/portfolio/media-hover.css">
 <link rel="stylesheet" href="/portfolio/services.css">
 <link rel="stylesheet" href="/portfolio/brand.css">
 <link rel="stylesheet" href="/portfolio/credibility.css">
@@ -111,7 +112,7 @@
         <figure class="p-product-screen"><img src="/assets/operator-uplift-product.webp" alt="Operator Uplift app showing today’s commitments and proof submission" width="390" height="844" loading="lazy" decoding="async"></figure>
       </div>
       <div class="p-builder-results">
-        <figure class="p-results-photo"><img src="/portfolio/assets/render-award.webp" alt="Matt with fellow builders at the Render Hackathon" width="900" height="1200" loading="lazy" decoding="async"><figcaption><a href="https://www.linkedin.com/posts/rvaclassic_i-just-took-podium-at-the-render-hackathon-activity-7443665395007483904-6koZ" target="_blank" rel="noopener noreferrer">At the Render Hackathon</a></figcaption></figure>
+        <figure class="p-results-photo p-results-graphic"><a href="https://x.com/RVAClassic/status/2095538330347962594" target="_blank" rel="noopener noreferrer"><img src="/portfolio/assets/history-media/dflow-winner-graphic.webp" alt="Superteam Thailand and DFlow hackathon winner announcement graphic for Operator Uplift" width="1206" height="1554" loading="lazy" decoding="async"></a><figcaption>Superteam Thailand × DFlow winner announcement. <a href="https://x.com/RVAClassic/status/2095538330347962594" target="_blank" rel="noopener noreferrer">View the result on X</a></figcaption></figure>
         <div>
           <h3>Selected hackathon wins</h3>
           <ul class="p-award-list">
@@ -122,7 +123,6 @@
           <p class="p-grant-note">Operator Uplift received a <a href="https://www.linkedin.com/posts/rvaclassic_buildinpublic-consumer-founder-activity-7475457905203527681-YrVt" target="_blank" rel="noopener noreferrer">$1,000 Solana Foundation grant via Superteam Malaysia</a>.</p>
         </div>
       </div>
-      <figure class="p-history-photo p-ceremony-photo"><a href="https://x.com/RVAClassic/status/2071624225643970693" target="_blank" rel="noopener noreferrer"><img src="/portfolio/assets/history-media/omniai-ceremony.webp" alt="Matt with fellow participants at the OmniDimension Voice AI Hackathon prize ceremony" width="1600" height="1067" loading="lazy" decoding="async"></a><figcaption>At the OmniAI Voice Hackathon prize ceremony. <a href="https://x.com/RVAClassic/status/2071624225643970693" target="_blank" rel="noopener noreferrer">View the result on X</a></figcaption></figure>
       <details class="p-hackathon-catalog" id="all-prize-finishes">
   <summary><span>All prize finishes</span><span class="p-hackathon-catalog-count">16 competitions</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></summary>
   <div class="p-hackathon-catalog-content">
@@ -153,12 +153,14 @@
                   <p>A client website paired with a launch video and a social media strategy.</p>
                 </div>
                 <div class="p-client-sites">
-                  <article class="p-client-site">
-                    <a class="p-client-site-image" href="https://evatarot.xyz/" target="_blank" rel="noopener noreferrer" aria-label="Visit Eva Tarot website (opens in a new tab)">
+                  <article class="p-client-site" data-build-preview data-project="Eva Tarot">
+                    <div class="p-build-preview-media p-client-site-media"><a class="p-client-site-image p-build-preview-link" href="https://evatarot.xyz/" target="_blank" rel="noopener noreferrer" aria-label="Visit Eva Tarot website (opens in a new tab)">
                       <img src="/portfolio/assets/eva-site.webp" width="1200" height="750" alt="Eva Tarot website with its conversational tarot experience" loading="lazy" decoding="async">
-                    </a>
+                      <video data-preview-src="/portfolio/assets/film-previews/eva-tarot.mp4" poster="/portfolio/assets/film-previews/eva-tarot.webp" preload="none" muted loop playsinline aria-hidden="true"></video>
+                    </a><button class="p-build-preview-toggle" type="button" hidden aria-label="Play Eva Tarot preview" aria-pressed="false">Play preview</button></div>
                     <div class="p-client-site-copy">
                       <h4>Eva Tarot</h4>
+                      <a class="p-full-film-link" href="/portfolio/assets/film-previews/eva-tarot.mp4" target="_blank" rel="noopener noreferrer">Watch launch video</a>
                       <p>A bilingual tarot experience for a local Vietnamese business.</p>
                       <ul class="p-client-site-deliverables" aria-label="Eva Tarot deliverables"><li>Website</li><li>Launch video</li><li>Social strategy</li></ul>
                       <a class="p-text-link" href="https://evatarot.xyz/" target="_blank" rel="noopener noreferrer">Visit website <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg><span class="p-sr-only"> (opens in a new tab)</span></a>
@@ -168,19 +170,15 @@
 <div class="p-featured-builds" aria-labelledby="p-featured-builds-title">
   <h3 id="p-featured-builds-title">More products I've built.</h3>
   <div class="p-build-previews">
-    <article class="p-build-preview" data-build-preview data-project="Sphere">
+    <article class="p-build-preview" data-build-preview data-project="Buffer">
       <div class="p-build-preview-media">
-        <a class="p-build-preview-link" href="https://sphereofinfluence.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit Sphere project (opens in a new tab)">
-          <img src="/portfolio/assets/build-previews/sphere.webp" alt="Sphere website introducing its private real estate referral network" width="1200" height="750" loading="lazy" decoding="async">
-          <video data-preview-src="/portfolio/assets/build-previews/sphere.mp4" poster="/portfolio/assets/build-previews/sphere.webp" preload="none" muted loop playsinline aria-hidden="true"></video>
+        <a class="p-build-preview-link" href="https://bufferonsolana.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit Buffer project (opens in a new tab)">
+          <img src="/portfolio/assets/build-previews/buffer.webp" alt="Buffer website showing read-only perpetual-position scenarios" width="1200" height="750" loading="lazy" decoding="async">
+          <video data-preview-src="/portfolio/assets/build-previews/buffer.mp4" poster="/portfolio/assets/build-previews/buffer.webp" preload="none" muted loop playsinline aria-hidden="true"></video>
         </a>
-        <button class="p-build-preview-toggle" type="button" hidden aria-label="Play Sphere preview" aria-pressed="false">Play preview</button>
+        <button class="p-build-preview-toggle" type="button" hidden aria-label="Play Buffer preview" aria-pressed="false">Play preview</button>
       </div>
-      <div class="p-build-preview-copy">
-        <p class="p-build-preview-kind">Public preview</p>
-        <h4><a href="https://sphereofinfluence.vercel.app/" target="_blank" rel="noopener noreferrer">Sphere<span class="p-sr-only"> (opens in a new tab)</span></a></h4>
-        <p>A private-network mapping and referral workspace for real estate professionals, previewed with a sample network.</p>
-      </div>
+      <div class="p-build-preview-copy"><p class="p-build-preview-kind">Solana risk tooling</p><h4><a href="https://bufferonsolana.vercel.app/" target="_blank" rel="noopener noreferrer">Buffer<span class="p-sr-only"> (opens in a new tab)</span></a></h4><p>Read-only Solana perpetual-position scenarios with visible assumptions, coverage and per-position math.</p></div>
     </article>
     <article class="p-build-preview" data-build-preview data-project="Velocity AI">
       <div class="p-build-preview-media">
@@ -210,19 +208,15 @@
         <p>A DLMM learning guide for the road to Breakpoint 2026.</p>
       </div>
     </article>
-    <article class="p-build-preview" data-build-preview data-project="RWA Lens">
+    <article class="p-build-preview" data-build-preview data-project="Allowance">
       <div class="p-build-preview-media">
-        <a class="p-build-preview-link" href="https://rwalensonsolana.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit RWA Lens project (opens in a new tab)">
-          <img src="/portfolio/assets/build-previews/rwa-lens.webp" alt="RWA Lens website introducing Solana token inspection" width="1200" height="750" loading="lazy" decoding="async">
-          <video data-preview-src="/portfolio/assets/build-previews/rwa-lens.mp4" poster="/portfolio/assets/build-previews/rwa-lens.webp" preload="none" muted loop playsinline aria-hidden="true"></video>
+        <a class="p-build-preview-link" href="https://allowanceonsolana.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit Allowance project (opens in a new tab)">
+          <img src="/portfolio/assets/build-previews/allowance.webp" alt="Allowance website introducing human-approved budgets for AI agents" width="1200" height="750" loading="lazy" decoding="async">
+          <video data-preview-src="/portfolio/assets/build-previews/allowance.mp4" poster="/portfolio/assets/build-previews/allowance.webp" preload="none" muted loop playsinline aria-hidden="true"></video>
         </a>
-        <button class="p-build-preview-toggle" type="button" hidden aria-label="Play RWA Lens preview" aria-pressed="false">Play preview</button>
+        <button class="p-build-preview-toggle" type="button" hidden aria-label="Play Allowance preview" aria-pressed="false">Play preview</button>
       </div>
-      <div class="p-build-preview-copy">
-        <p class="p-build-preview-kind">Read-only inspection</p>
-        <h4><a href="https://rwalensonsolana.vercel.app/" target="_blank" rel="noopener noreferrer">RWA Lens<span class="p-sr-only"> (opens in a new tab)</span></a></h4>
-        <p>Solana token inspection for identity, balances, controls and exportable evidence.</p>
-      </div>
+      <div class="p-build-preview-copy"><p class="p-build-preview-kind">AI-agent payment tooling</p><h4><a href="https://allowanceonsolana.vercel.app/" target="_blank" rel="noopener noreferrer">Allowance<span class="p-sr-only"> (opens in a new tab)</span></a></h4><p>Human-approved budgets for AI agents buying Solana data through x402, with visible decisions and receipts.</p></div>
     </article>
   </div>
 </div>
@@ -233,8 +227,8 @@
                     <li><a href="https://superteammalaysia.vercel.app/" target="_blank" rel="noopener noreferrer"><span class="p-build-name">Superteam Malaysia</span><span class="p-build-kind">Website competition win</span><span class="p-build-description">A community website for Malaysian Solana builders, with projects, events and a member directory.</span><span class="p-build-visit">View project <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span><span class="p-sr-only"> (opens in a new tab)</span></a></li>
                     <li><a href="https://marginprotectorai.vercel.app/" target="_blank" rel="noopener noreferrer"><span class="p-build-name">Margin Protector AI</span><span class="p-build-kind">Dashboard demo</span><span class="p-build-description">A Shopify profit-leak audit dashboard with AI recommendations and proposed fixes.</span><span class="p-build-visit">View demo <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span><span class="p-sr-only"> (opens in a new tab)</span></a></li>
                     <li><a href="https://lotline.dev/" target="_blank" rel="noopener noreferrer"><span class="p-build-name">Lotline</span><span class="p-build-kind">Read-only planner</span><span class="p-build-description">An xStocks contribution planner with asset splits, estimates and exportable plans.</span><span class="p-build-visit">View project <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span><span class="p-sr-only"> (opens in a new tab)</span></a></li>
-                    <li><a href="https://bufferonsolana.vercel.app/" target="_blank" rel="noopener noreferrer"><span class="p-build-name">Buffer</span><span class="p-build-kind">Solana risk tooling</span><span class="p-build-description">A snapshot of Solana perpetual positions and the potential effect of a shared market move.</span><span class="p-build-visit">View project <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span><span class="p-sr-only"> (opens in a new tab)</span></a></li>
-                    <li><a href="https://allowanceonsolana.vercel.app/" target="_blank" rel="noopener noreferrer"><span class="p-build-name">Allowance</span><span class="p-build-kind">AI-agent payment tooling</span><span class="p-build-description">Human-approved budgets for AI agents buying Solana data through x402 payments.</span><span class="p-build-visit">View project <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span><span class="p-sr-only"> (opens in a new tab)</span></a></li>
+                    <li><a href="https://sphereofinfluence.vercel.app/" target="_blank" rel="noopener noreferrer"><span class="p-build-name">Sphere</span><span class="p-build-kind">Public preview</span><span class="p-build-description">A private-network mapping and referral workspace for real estate professionals, previewed with a sample network.</span><span class="p-build-visit">View project <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span><span class="p-sr-only"> (opens in a new tab)</span></a></li>
+                    <li><a href="https://rwalensonsolana.vercel.app/" target="_blank" rel="noopener noreferrer"><span class="p-build-name">RWA Lens</span><span class="p-build-kind">Read-only inspection</span><span class="p-build-description">Solana token inspection for identity, balances, controls and exportable evidence.</span><span class="p-build-visit">View project <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span><span class="p-sr-only"> (opens in a new tab)</span></a></li>
                     <li><a href="https://strikerterminal.vercel.app/" target="_blank" rel="noopener noreferrer"><span class="p-build-name">Striker Terminal</span><span class="p-build-kind">Demo prototype</span><span class="p-build-description">A World Cup prediction terminal with programmable orders and collectible prediction receipts.</span><span class="p-build-visit">View demo <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span><span class="p-sr-only"> (opens in a new tab)</span></a></li>
                   </ul>
                 </details>
@@ -249,18 +243,17 @@
       <div class="p-founder-intro">
         <div>
           <h3>Velocity Esports.<br>Bootstrapped from zero.</h3>
-          <p class="p-section-copy">Founded May 17, 2014. I built partnerships with <a class="p-inline-link" href="https://x.com/MLG" target="_blank" rel="noopener noreferrer">MLG</a> and <a class="p-inline-link" href="https://www.questnutrition.com/" target="_blank" rel="noopener noreferrer">Quest Nutrition</a>, and signed an MLG.tv contract before I turned 18.</p>
+          <p class="p-section-copy">Founded May 17, 2014. I built partnerships with <a class="p-inline-link" href="https://x.com/MLG" target="_blank" rel="noopener noreferrer">MLG</a> and <a class="p-inline-link" href="https://www.questnutrition.com/" target="_blank" rel="noopener noreferrer">Quest Nutrition</a>, and signed an MLG.tv contract at 14.</p>
         </div>
         <figure class="p-founder-portrait"><img src="/assets/matt.jpg" alt="Matt Sim speaking at an event" width="400" height="400" loading="lazy" decoding="async"></figure>
       </div>
-      <div class="p-history-pair" aria-label="Velocity Esports photographs">
-        <figure class="p-history-photo"><a href="/portfolio/assets/history-media/velocity-team.webp" target="_blank" rel="noopener noreferrer"><img src="/portfolio/assets/history-media/velocity-team.webp" alt="The Velocity Esports team in matching jerseys in 2015" width="960" height="639" loading="lazy" decoding="async"></a><figcaption>Velocity Esports, 2015. Photo: Andrew Sim.</figcaption></figure>
-        <figure class="p-history-photo"><a href="/portfolio/assets/history-media/halo-tournament.webp" target="_blank" rel="noopener noreferrer"><img src="/portfolio/assets/history-media/halo-tournament.webp" alt="A competitor wearing a headset on the esports tournament floor" width="1600" height="1067" loading="lazy" decoding="async"></a><figcaption>On the esports tournament floor.</figcaption></figure>
-      </div>
+      <figure class="p-history-photo p-velocity-team"><a href="/portfolio/assets/history-media/velocity-team.webp" target="_blank" rel="noopener noreferrer"><img src="/portfolio/assets/history-media/velocity-team.webp" alt="The Velocity Esports team in matching jerseys in 2015" width="960" height="639" loading="lazy" decoding="async"></a><figcaption>Velocity Esports, 2015. Photo: Andrew Sim.</figcaption></figure>
+
       <div class="p-founder-details">
         <div>
           <h3>Sold it. Built the team.</h3>
           <p>$1M+ in door-to-door sales. $25k/month at peak. Trained and led a team of 5–10 reps.</p>
+          <figure class="p-history-photo p-detail-photo"><a href="/portfolio/assets/history-media/sales-team.webp" target="_blank" rel="noopener noreferrer"><img src="/portfolio/assets/history-media/sales-team.webp" alt="Matt with his sales team during a group outing" width="960" height="720" loading="lazy" decoding="async"></a><figcaption>Sales team outing.</figcaption></figure>
         </div>
         <div>
           <h3>Selected esports results</h3>
@@ -270,6 +263,7 @@
             <li><a class="p-inline-link" href="https://x.com/RVAClassic/status/1464805540899573767" target="_blank" rel="noopener noreferrer">1st · Trolli Halo 4v4 qualifier for the $2,500 finals</a></li>
           </ul>
           <p class="p-seasonal-ranks">Top 5 global seasonal rankings in Fortnite and Halo 5.</p>
+          <figure class="p-history-photo p-detail-photo"><a href="/portfolio/assets/history-media/halo-tournament.webp" target="_blank" rel="noopener noreferrer"><img src="/portfolio/assets/history-media/halo-tournament.webp" alt="A competitor wearing a headset on the esports tournament floor" width="1600" height="1067" loading="lazy" decoding="async"></a><figcaption>On the esports tournament floor.</figcaption></figure>
         </div>
         <div>
           <h3>Three clothing brands</h3>
@@ -285,7 +279,7 @@
       </div>
       <div class="p-residency-story"><h3>Kept showing up.</h3><p>After an initial rejection from The Residency, I <a href="https://www.linkedin.com/posts/rvaclassic_from-roaches-to-renaissance-in-30-days-activity-7376687293081858048-y0XA" target="_blank" rel="noopener noreferrer">joined Actioners</a> and was later <a href="https://www.linkedin.com/posts/rvaclassic_im-one-of-100-founders-selected-for-the-activity-7391525506623639552--YNg" target="_blank" rel="noopener noreferrer">selected for The Residency</a>.</p><ul><li>Accepted into Empower Residency in Da Nang after an initial rejection.</li><li>Worked from Founders Inc for about 2.5 months after my program application was declined.</li><li>Accepted into the London Solana Hacker House. Attendance depends on visa approval and travel funding.</li><li><a href="https://www.linkedin.com/posts/rvaclassic_everyone-wants-the-solo-founder-title-until-activity-7501822853395390464-Jrwr" target="_blank" rel="noopener noreferrer">Accepted into CastleDAO / Superteam Ireland and selected for a Solana gaming hacker house in Ho Chi Minh City.</a></li></ul></div>
       <details class="p-experience-catalog"><summary>Teams &amp; collaborations <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></summary><div><p>Work across esports, creator content, design, community, and product projects.</p><ul><li><a href="https://nansen.ai/" target="_blank" rel="noopener noreferrer">Nansen</a></li><li><a href="https://walletconnect.com/" target="_blank" rel="noopener noreferrer">WalletConnect</a></li><li><a href="https://www.meteora.ag/" target="_blank" rel="noopener noreferrer">Meteora</a></li><li><a href="https://xset.com/" target="_blank" rel="noopener noreferrer">XSET Gaming</a></li><li><a href="https://ramsconnect.vcu.edu/esports/club_signup" target="_blank" rel="noopener noreferrer">VCU Esports</a></li><li><a href="https://www.kast.xyz/" target="_blank" rel="noopener noreferrer">Kast</a></li><li><a href="https://www.redotpay.com/" target="_blank" rel="noopener noreferrer">RedotPay</a></li><li><a href="https://www.ourbit.com/" target="_blank" rel="noopener noreferrer">Ourbit</a></li><li><a href="https://talent.superteam.fun/" target="_blank" rel="noopener noreferrer">Superteam Talent</a></li><li><a href="https://www.checkmategaming.com/" target="_blank" rel="noopener noreferrer">CMG Gaming</a></li><li><a href="https://runner.now/" target="_blank" rel="noopener noreferrer">Runner</a></li><li><a href="https://www.foundersboost.com/" target="_blank" rel="noopener noreferrer">Founders Boost</a></li><li><a href="https://icm.run/" target="_blank" rel="noopener noreferrer">ICMdotRUN</a></li><li>FOUNDERSdotRUN</li><li><a href="https://nomadz.xyz/" target="_blank" rel="noopener noreferrer">Nomadz</a></li><li><a href="https://www.ooble.studio/" target="_blank" rel="noopener noreferrer">Ooble Studios</a></li><li><a href="https://memeticmachines.app/" target="_blank" rel="noopener noreferrer">Memetic Machines</a></li><li><a href="https://houseofbytez.com/" target="_blank" rel="noopener noreferrer">House of Bytez</a></li><li><a href="https://x.com/OTFgaming" target="_blank" rel="noopener noreferrer">OTF Gaming</a></li><li><a href="https://x.com/sBusinessGaming" target="_blank" rel="noopener noreferrer">Strictly Business Gaming</a></li><li><a href="https://x.com/CircaeSports" target="_blank" rel="noopener noreferrer">Circa Esports</a></li><li><a href="https://ourfate.gg/" target="_blank" rel="noopener noreferrer">Fatal Ambition</a></li><li><a href="https://www.youtube.com/@DarkestHourGG" target="_blank" rel="noopener noreferrer">Darkest Hour</a></li><li><a href="https://fuzeyportfolio.com/" target="_blank" rel="noopener noreferrer">Fuzey Designs</a></li><li><a href="https://arma.gg/" target="_blank" rel="noopener noreferrer">Arma Apparel</a></li><li><a href="https://insightcousa.com/" target="_blank" rel="noopener noreferrer">Insight Apparel</a></li><li><a href="https://esportsagent.gg/" target="_blank" rel="noopener noreferrer">Esports Agent</a></li><li><a href="https://www.linkedin.com/company/gamers4christ" target="_blank" rel="noopener noreferrer">Gamers 4 Christ</a></li></ul></div></details>
-      <p class="p-education-note">At Fishburne Military School, I was a JROTC squad leader and a varsity wrestler. <a href="/portfolio/assets/history-media/fishburne-award.webp" target="_blank" rel="noopener noreferrer">2015–2016 wrestling Carson Hustle Award</a>.</p>
+      <p class="p-education-note">I attended four military-school programs and was a JROTC squad leader and varsity wrestler at Fishburne. Championship results include 2nd at regionals and placements at district and state championships. <a href="/portfolio/assets/history-media/fishburne-award.webp" target="_blank" rel="noopener noreferrer">2015–2016 wrestling Carson Hustle Award</a>.</p>
       <p class="p-founder-aside">Based in Southeast Asia. Taking the work wherever a backpack and a 2019 MacBook can go.</p>
     </div>
   </section>
@@ -357,12 +351,12 @@
         </a>
       </div>
       <div class="p-client-films"><h3>Client films</h3><p>I created the launch video and product demo for Helm Trading.</p><div class="p-client-film-grid">
-        <a class="p-client-film" href="https://x.com/helmtrading/status/2054911881056543100" target="_blank" rel="noopener noreferrer"><div class="p-appearance-image"><img src="/portfolio/assets/helm-launch.webp" alt="Helm Trading launch video" width="1200" height="675" loading="lazy"><span aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 4 13 8-13 8Z"/></svg></span></div><div class="p-client-film-copy"><span>Helm Trading</span><h4>Launch video</h4><p>Watch the client’s post <span aria-hidden="true">↗</span></p></div></a>
-        <a class="p-client-film" href="https://x.com/helmtrading/status/2063834353193615472" target="_blank" rel="noopener noreferrer"><div class="p-appearance-image"><img src="/portfolio/assets/helm-demo.webp" alt="Helm Trading product demo video" width="1200" height="675" loading="lazy"><span aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 4 13 8-13 8Z"/></svg></span></div><div class="p-client-film-copy"><span>Helm Trading</span><h4>Product demo</h4><p>Watch the client’s post <span aria-hidden="true">↗</span></p></div></a>
+        <article class="p-client-film" data-build-preview data-project="Helm Trading launch video"><div class="p-build-preview-media p-film-media"><a class="p-build-preview-link" href="/portfolio/assets/film-previews/helm-launch.mp4" target="_blank" rel="noopener noreferrer" aria-label="Watch full Helm Trading launch video (opens in a new tab)"><img src="/portfolio/assets/film-previews/helm-launch.webp" width="1280" height="720" alt="Helm Trading launch video" loading="lazy" decoding="async"><video data-preview-src="/portfolio/assets/film-previews/helm-launch.mp4" poster="/portfolio/assets/film-previews/helm-launch.webp" preload="none" muted loop playsinline aria-hidden="true"></video></a><button class="p-build-preview-toggle" type="button" hidden aria-label="Play Helm Trading launch video preview" aria-pressed="false">Play preview</button></div><div class="p-client-film-copy"><span>Helm Trading</span><h4>Launch video</h4><p><a href="https://x.com/helmtrading/status/2054911881056543100" target="_blank" rel="noopener noreferrer">View the client’s post <span aria-hidden="true">↗</span></a></p></div></article>
+        <article class="p-client-film" data-build-preview data-project="Helm Trading product demo"><div class="p-build-preview-media p-film-media"><a class="p-build-preview-link" href="/portfolio/assets/film-previews/helm-demo.mp4" target="_blank" rel="noopener noreferrer" aria-label="Watch full Helm Trading product demo (opens in a new tab)"><img src="/portfolio/assets/film-previews/helm-demo.webp" width="1280" height="720" alt="Helm Trading product demo" loading="lazy" decoding="async"><video data-preview-src="/portfolio/assets/film-previews/helm-demo.mp4" poster="/portfolio/assets/film-previews/helm-demo.webp" preload="none" muted loop playsinline aria-hidden="true"></video></a><button class="p-build-preview-toggle" type="button" hidden aria-label="Play Helm Trading product demo preview" aria-pressed="false">Play preview</button></div><div class="p-client-film-copy"><span>Helm Trading</span><h4>Product demo</h4><p><a href="https://x.com/helmtrading/status/2063834353193615472" target="_blank" rel="noopener noreferrer">View the client’s post <span aria-hidden="true">↗</span></a></p></div></article>
       </div></div>
       <div class="p-event-films" aria-labelledby="p-event-films-title"><h3 id="p-event-films-title">Event films</h3><div class="p-event-film-grid">
-        <figure class="p-event-film"><video controls playsinline preload="none" width="1280" height="720" poster="/portfolio/assets/history-media/photon-private-dinner.webp" aria-label="Photon private-dinner recap"><source src="/portfolio/assets/history-media/photon-private-dinner.mp4" type="video/mp4">Your browser cannot play this video. <a href="/portfolio/assets/history-media/photon-private-dinner.mp4">Download the Photon recap</a>.</video><figcaption><h4>Photon private dinner</h4><a href="/portfolio/assets/history-media/photon-private-dinner.mp4">Watch the full recap</a></figcaption></figure>
-        <figure class="p-event-film"><video controls playsinline preload="none" width="1280" height="720" poster="/portfolio/assets/history-media/founders-mixer-recap.webp" aria-label="Founders mixer recap"><source src="/portfolio/assets/history-media/founders-mixer-recap.mp4" type="video/mp4">Your browser cannot play this video. <a href="/portfolio/assets/history-media/founders-mixer-recap.mp4">Download the founders mixer recap</a>.</video><figcaption><h4>Founders mixer</h4><a href="/portfolio/assets/history-media/founders-mixer-recap.mp4">Watch the full recap</a></figcaption></figure>
+        <figure class="p-event-film" data-build-preview data-project="Photon private dinner"><div class="p-build-preview-media p-film-media"><a class="p-build-preview-link" href="/portfolio/assets/history-media/photon-private-dinner.mp4" target="_blank" rel="noopener noreferrer" aria-label="Watch full Photon private dinner (opens in a new tab)"><img src="/portfolio/assets/history-media/photon-private-dinner.webp" width="1280" height="720" alt="Photon SF private-dinner film" loading="lazy" decoding="async"><video data-preview-src="/portfolio/assets/history-media/photon-private-dinner.mp4" poster="/portfolio/assets/history-media/photon-private-dinner.webp" preload="none" muted loop playsinline aria-hidden="true"></video></a><button class="p-build-preview-toggle" type="button" hidden aria-label="Play Photon private dinner preview" aria-pressed="false">Play preview</button></div><figcaption><h4>Photon private dinner</h4><a href="/portfolio/assets/history-media/photon-private-dinner.mp4" target="_blank" rel="noopener noreferrer">Watch the full recap</a></figcaption></figure>
+        <figure class="p-event-film" data-build-preview data-project="Founders mixer"><div class="p-build-preview-media p-film-media"><a class="p-build-preview-link" href="/portfolio/assets/history-media/founders-mixer-recap.mp4" target="_blank" rel="noopener noreferrer" aria-label="Watch full Founders mixer (opens in a new tab)"><img src="/portfolio/assets/history-media/founders-mixer-recap.webp" width="1280" height="720" alt="Founders mixer film title" loading="lazy" decoding="async"><video data-preview-src="/portfolio/assets/history-media/founders-mixer-recap.mp4" poster="/portfolio/assets/history-media/founders-mixer-recap.webp" preload="none" muted loop playsinline aria-hidden="true"></video></a><button class="p-build-preview-toggle" type="button" hidden aria-label="Play Founders mixer preview" aria-pressed="false">Play preview</button></div><figcaption><h4>Founders mixer</h4><a href="/portfolio/assets/history-media/founders-mixer-recap.mp4" target="_blank" rel="noopener noreferrer">Watch the full recap</a></figcaption></figure>
       </div></div>
       <div class="p-portfolio-links" aria-label="Creative portfolios">
         <a href="https://www.behance.net/classicphotography" target="_blank" rel="noopener noreferrer"><strong>Photography &amp; apparel</strong><span>Esports and apparel shoots on Behance <span aria-hidden="true">↗</span></span></a>
