@@ -1,3 +1,3 @@
-/* RVAClassic | Terminal Mint. Display: Saira. Body: Space Grotesk. */
-:root{--rva-mint:#10B981;--rva-white:#F4F4F6;--rva-obsidian:#0A0A0C;--rva-graphite:#1F1F23;--rva-mint-ink:#08735C;--rva-muted-dark:#A7B3AF;--rva-muted-light:#52645D;--rva-display:"Saira",sans-serif;--rva-body:"Space Grotesk",sans-serif;--rva-radius:16px;--rva-space:8px}
-/* For readable buttons: obsidian text on mint. On white, use mint-ink for body-size links. */
+/* RVAClassic | Pastel Lavender. Display: Saira. Body: Space Grotesk. */
+:root{--rva-lavender:#C3A1F2;--rva-white:#F4F4F6;--rva-obsidian:#0A0A0C;--rva-graphite:#1F1F23;--rva-lavender-ink:#7239A8;--rva-cta:#8551BF;--rva-muted-dark:#B2AABD;--rva-muted-light:#62586D;--rva-display:"Saira",sans-serif;--rva-body:"Space Grotesk",sans-serif;--rva-radius:16px;--rva-space:8px}
+/* For readable buttons: obsidian text on lavender. On white, use lavender-ink for body-size links. */

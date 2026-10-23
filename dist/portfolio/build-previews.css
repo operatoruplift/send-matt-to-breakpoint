@@ -1,0 +1,29 @@
+/* Actual public project recordings. Playback is optional and loaded on demand. */
+.p-featured-builds { margin-top:40px; }
+.p-featured-builds>h3 { margin-bottom:22px; font-size:clamp(25px,3vw,34px); font-weight:500; line-height:1.16; letter-spacing:-.03em; }
+.p-build-previews { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
+.p-build-preview { min-width:0; overflow:hidden; border:1px solid var(--p-line); border-radius:20px; }
+.p-build-preview-media { position:relative; aspect-ratio:16/10; overflow:hidden; border-bottom:1px solid var(--p-line); }
+.p-build-preview-link { display:block; width:100%; height:100%; }
+.p-build-preview-link img,.p-build-preview-link video { display:block; width:100%; height:100%; object-fit:cover; }
+.p-build-preview-link video { position:absolute; inset:0; opacity:0; visibility:hidden; pointer-events:none; transition:opacity .2s ease; }
+.p-build-preview.is-preview-playing .p-build-preview-link video { opacity:1; visibility:visible; }
+.p-build-preview-toggle { position:absolute; right:12px; bottom:12px; z-index:1; max-width:calc(100% - 24px); padding:8px 12px; border:1px solid var(--p-accent); border-radius:999px; background:var(--p-bg,#0a0a0c); color:var(--p-accent); font:inherit; font-size:12px; font-weight:500; line-height:1.35; cursor:pointer; }
+.p-build-preview-toggle:hover { text-decoration:underline; text-underline-offset:3px; }
+.p-build-preview-copy { padding:23px 25px 26px; }
+.p-build-preview-copy .p-build-preview-kind { margin:0 0 10px; color:var(--p-accent); font-size:11px; font-weight:400; line-height:1.5; }
+.p-build-preview-copy h4 { font-size:25px; font-weight:500; line-height:1.2; letter-spacing:-.025em; }
+.p-build-preview-copy h4 a { color:inherit; text-decoration:none; }
+.p-build-preview-copy h4 a:hover { color:var(--p-accent); }
+.p-build-preview-copy>p:last-child { margin-top:12px; color:var(--p-muted); font-size:14px; font-weight:300; line-height:1.6; }
+.p-build-preview-link:focus-visible { outline:3px solid var(--p-accent); outline-offset:-5px; }
+.p-build-preview-toggle:focus-visible,.p-build-preview-copy h4 a:focus-visible { outline:3px solid var(--p-accent); outline-offset:4px; }
+@media(max-width:767px) {
+  .p-featured-builds { margin-top:32px; }
+  .p-build-previews { grid-template-columns:1fr; gap:20px; }
+  .p-build-preview-copy { padding:22px 23px 25px; }
+  .p-build-preview-copy h4 { font-size:24px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .p-build-preview-link video { transition:none; }
+}

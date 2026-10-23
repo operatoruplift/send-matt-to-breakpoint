@@ -1,5 +1,5 @@
 /* Outcome-led portfolio. Content remains readable without JavaScript. */
-.p-body { --p-bg:#0c0c0c; --p-ink:#f4f4f2; --p-muted:#aeb3bc; --p-line:#303238; --p-accent:#10b981; background:var(--p-bg); color:var(--p-ink); font-family:'Kanit',sans-serif; overflow-x:clip; }
+.p-body { --p-bg:#0c0c0c; --p-ink:#f4f4f2; --p-muted:#aeb3bc; --p-line:#303238; --p-accent:#c3a1f2; background:var(--p-bg); color:var(--p-ink); font-family:'Kanit',sans-serif; overflow-x:clip; }
 .p-body *, .p-body *::before, .p-body *::after { box-sizing:border-box; }
 .p-body h2,.p-body h3,.p-body h4,.p-body p,.p-body figure { margin:0; }
 .p-body a { color:inherit; }
@@ -35,7 +35,7 @@
 .p-results li+li { margin-top:7px; }
 .p-founder-residency { margin-top:30px!important; color:#bdc2cb; font-size:16px; line-height:1.65; font-weight:300; }
 .p-founder-residency a { text-underline-offset:4px; }
-.p-founder-note { margin-top:32px!important; padding:20px 0 0; border-top:1px solid var(--p-line); color:#b3c8bd; font-size:16px; line-height:1.65; font-weight:300; }
+.p-founder-note { margin-top:32px!important; padding:20px 0 0; border-top:1px solid var(--p-line); color:#cbbddd; font-size:16px; line-height:1.65; font-weight:300; }
 .p-founder-aside { margin-top:16px!important; color:var(--p-muted); font-size:13px; line-height:1.6; }
 .p-creator { border-top:1px solid var(--p-line); }
 .p-creator-intro { max-width:700px; margin-bottom:30px!important; }
@@ -44,7 +44,7 @@
 .p-content-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
 .p-video-card { position:relative; display:flex; min-height:292px; flex-direction:column; align-items:flex-start; justify-content:space-between; padding:30px; border-radius:24px; text-decoration:none; overflow:hidden; }
 .p-video-one { background:#c4a5ed; color:#241235!important; }
-.p-video-two { background:#a8dcda; color:#112b30!important; }
+.p-video-two { background:#ddd0f3; color:#29163f!important; }
 .p-video-card>svg { position:absolute; width:170px; height:170px; right:-24px; bottom:-25px; fill:currentColor; opacity:.08; transform:rotate(-8deg); }
 .p-video-meta { position:relative; display:flex; width:100%; align-items:center; justify-content:space-between; gap:16px; font-size:12px; font-weight:400; line-height:1.5; }
 .p-video-meta svg { width:20px; height:20px; fill:none; stroke:currentColor; stroke-width:1.5; transition:transform .2s ease; }
@@ -91,7 +91,7 @@
 .p-brand-solana { border-left:1px solid var(--p-line); padding-left:28px; }
 .p-press { padding:28px 0 22px; border-top:1px solid var(--p-line); }
 .p-press-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; margin:20px 0 0; padding:0; list-style:none; }
-.p-press-grid a { display:flex; height:100%; flex-direction:column; overflow:hidden; border:1px solid var(--p-line); border-radius:16px; background:#151718; text-decoration:none; transition:border-color .2s ease; }
+.p-press-grid a { display:flex; height:100%; flex-direction:column; overflow:hidden; border:1px solid var(--p-line); border-radius:16px; background:#141416; text-decoration:none; transition:border-color .2s ease; }
 .p-press-image { display:block; width:100%; aspect-ratio:2/1; object-fit:cover; }
 .p-press-copy { display:flex; flex:1; flex-direction:column; gap:18px; padding:23px; }
 .p-press-grid a:hover { border-color:var(--p-accent); }
@@ -191,9 +191,9 @@
 .p-heading-link:hover { text-decoration:underline; text-underline-offset:6px; }
 .p-brand-mark { text-decoration:none; }
 .p-brand-mark:hover { outline:1px solid var(--p-accent); outline-offset:3px; }
-.p-creator-partners a,.p-experience-catalog li a { text-decoration:underline; text-decoration-color:#4a7563; text-underline-offset:4px; }
+.p-creator-partners a,.p-experience-catalog li a { text-decoration:underline; text-decoration-color:#7c688d; text-underline-offset:4px; }
 .p-creator-partners a:hover,.p-experience-catalog li a:hover { color:#fff; text-decoration-color:var(--p-accent); }
-.p-founder-interview { display:grid; grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr); margin-bottom:24px; overflow:hidden; border:1px solid var(--p-line); border-radius:18px; background:#151718; text-decoration:none; }
+.p-founder-interview { display:grid; grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr); margin-bottom:24px; overflow:hidden; border:1px solid var(--p-line); border-radius:18px; background:#141416; text-decoration:none; }
 .p-founder-interview:hover { border-color:var(--p-accent); }
 .p-founder-interview .p-appearance-image { height:100%; min-height:235px; }
 .p-founder-interview-copy { display:flex; flex-direction:column; align-items:flex-start; justify-content:center; gap:13px; padding:28px 32px; }

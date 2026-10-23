@@ -21,6 +21,8 @@
 }
 @supports (height: 100dvh) { .p-hero { --p-vph: 100dvh; } }
 .p-hero * { box-sizing: border-box; }
+.p-hero::after { content:''; position:absolute; z-index:3; inset:auto 0 0; height:clamp(120px,22vh,210px); background:linear-gradient(to bottom,rgba(10,10,12,0),rgba(10,10,12,.2) 32%,rgba(10,10,12,.72) 72%,#0a0a0c); pointer-events:none; }
+.p-hero .p-hero-intro,.p-hero .p-hero-nav { z-index:4; }
 .p-hero p, .p-hero h1 { margin: 0; }
 .p-hero-sky {
   position: absolute;

@@ -1,4 +1,21 @@
 /* Native, keyboard-accessible package disclosures. */
+.p-services-heading { margin-bottom:32px; }
+.p-services-heading .p-display { font-size:clamp(42px,6vw,72px); }
+.p-custom-offer { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:40px; padding:38px; border-radius:22px; background:#21162f; color:#f4f4f6; }
+.p-offer-label { margin:0 0 12px!important; font-size:12px; line-height:1.5; font-weight:400; }
+.p-custom-offer .p-offer-label { color:#c3a1f2; }
+.p-custom-offer h3 { font-size:clamp(27px,3.2vw,40px); font-weight:500; letter-spacing:-.03em; line-height:1.15; }
+.p-custom-offer-description { max-width:550px; margin-top:20px!important; color:#ded2ec; font-size:16px; font-weight:300; line-height:1.65; }
+.p-custom-offer-scope { margin-top:18px!important; color:#cbbddd; font-size:12px; line-height:1.6; }
+.p-custom-offer-action { min-width:0; align-self:center; }
+.p-custom-offer-action>p { color:#ded2ec; font-size:14px; line-height:1.5; }
+.p-custom-offer-action .p-custom-offer-price { color:#fff; font-size:clamp(45px,5vw,64px); font-weight:600; letter-spacing:-.05em; line-height:1.1; }
+.p-services .p-custom-offer .p-contact-button { margin-top:24px; background:#8551bf; border-color:#c3a1f2; }
+.p-services .p-custom-offer .p-contact-button:hover { background:#733eaa; }
+.p-starter-offer { margin-top:40px; padding-top:36px; border-top:1px solid #14131826; }
+.p-starter-title { font-size:clamp(30px,3.5vw,42px); font-weight:500; letter-spacing:-.035em; line-height:1.15; }
+.p-starter-offer .p-offer-label { color:#7239a8; }
+.p-starter-offer .p-service-price strong { font-size:52px; }
 .p-services .p-service-maintenance {
   margin:16px 0 0;
   color:#55535b;
@@ -30,13 +47,13 @@
   width:20px;
   height:20px;
   fill:none;
-  stroke:#08735c;
+  stroke:#7239a8;
   stroke-width:1.7;
   transition:transform .2s ease;
 }
 .p-services .p-service-feature[open] summary>svg { transform:rotate(180deg); }
-.p-services .p-service-feature summary:hover { color:#08735c; }
-.p-services .p-service-feature summary:focus-visible { outline:3px solid #08735c; outline-offset:4px; }
+.p-services .p-service-feature summary:hover { color:#7239a8; }
+.p-services .p-service-feature summary:focus-visible { outline:3px solid #7239a8; outline-offset:4px; }
 .p-services .p-service-feature p {
   max-width:520px;
   margin:0 28px 20px 0;
@@ -46,6 +63,12 @@
   line-height:1.65;
 }
 @media(max-width:767px) {
+  .p-services-heading { margin-bottom:25px; }
+  .p-custom-offer { grid-template-columns:1fr; gap:28px; padding:25px 22px; }
+  .p-custom-offer-action .p-custom-offer-price { font-size:54px; }
+  .p-custom-offer-description { font-size:15px; }
+  .p-starter-offer { margin-top:30px; padding-top:30px; }
+  .p-starter-offer .p-service-price strong { font-size:48px; }
   .p-services .p-service-maintenance { margin-top:14px; font-size:15px; }
   .p-services .p-service-feature summary { min-height:58px; padding:16px 0; font-size:17px; }
   .p-services .p-service-feature p { margin-right:10px; font-size:14px; }
