@@ -6,6 +6,39 @@
   "outputDirectory": "dist",
   "routes": [
     {
+      "src": "^/robots\\.txt$",
+      "has": [
+        {
+          "type": "host",
+          "value": "rvaclassic\\.xyz"
+        }
+      ],
+      "dest": "/robots-apex.txt"
+    },
+    {
+      "src": "^/sitemap\\.xml$",
+      "has": [
+        {
+          "type": "host",
+          "value": "rvaclassic\\.xyz"
+        }
+      ],
+      "dest": "/sitemap-apex.xml"
+    },
+    {
+      "src": "^/portfolio/?(?:index\\.html)?$",
+      "has": [
+        {
+          "type": "host",
+          "value": "breakpoint\\.rvaclassic\\.xyz"
+        }
+      ],
+      "status": 308,
+      "headers": {
+        "Location": "https://rvaclassic.xyz/"
+      }
+    },
+    {
       "src": "^/(?:index\\.html)?$",
       "has": [
         {
