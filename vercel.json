@@ -16,6 +16,26 @@
       "dest": "/robots-apex.txt"
     },
     {
+      "src": "^/llms\\.txt$",
+      "has": [
+        {
+          "type": "host",
+          "value": "rvaclassic\\.xyz"
+        }
+      ],
+      "dest": "/llms-apex.txt"
+    },
+    {
+      "src": "^/llms\\.txt$",
+      "has": [
+        {
+          "type": "host",
+          "value": ".*\\.vercel\\.app"
+        }
+      ],
+      "dest": "/llms-apex.txt"
+    },
+    {
       "src": "^/sitemap\\.xml$",
       "has": [
         {

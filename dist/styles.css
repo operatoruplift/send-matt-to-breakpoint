@@ -180,6 +180,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .package-art img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
 .package.standard .package-art { background: #e9f8f1; }
 .package-body { padding: 31px; }
+.package-body .button { width: 100%; margin-top: 24px; }
 .package-top { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; min-height: 31px; }
 .tier-name { color: var(--ink); font-size: 23px; line-height: 1.3; letter-spacing: -.045em; }
 .slot { display: inline-flex; align-items: center; min-height: 30px; padding: 4px 9px; border: 1px solid #d9c5ef; border-radius: 3px; color: var(--purple); background: #f8f3ff; font-size: 14px; line-height: 1.4; }
