@@ -16,6 +16,7 @@
 <img src="https://img.shields.io/badge/event-Breakpoint_2026%2C_London-AA67FB?style=flat-square&logo=solana&logoColor=white&labelColor=21152E" alt="Event: Breakpoint 2026, London">
 <img src="https://img.shields.io/badge/build-none%2C_static_HTML-14F195?style=flat-square&labelColor=21152E" alt="No build step, static HTML">
 <img src="https://img.shields.io/badge/hosted_on-Vercel-000000?style=flat-square&logo=vercel&logoColor=white&labelColor=21152E" alt="Hosted on Vercel">
+<a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-6F6163?style=flat-square&labelColor=21152E" alt="License: MIT"></a>
 
 <h3>Send Matt to Hacker House &amp; Breakpoint London.</h3>
 
@@ -228,6 +229,6 @@ The portfolio hero and decorative 3D assets use the remote URLs supplied with th
 
 <br>
 
-<p align="center"><sub>This repository does not include a license file. Third-party names, logos and imagery belong to their owners; the brand kit's terms are in <a href="dist/portfolio/brand/LICENSE-AND-SOURCES.md">LICENSE-AND-SOURCES.md</a>.</sub></p>
+<p align="center"><sub>The site's code is MIT licensed (see <a href="LICENSE">LICENSE</a>); the photographs and written content are not covered. Third-party names, logos and imagery belong to their owners; the brand kit's terms are in <a href="dist/portfolio/brand/LICENSE-AND-SOURCES.md">LICENSE-AND-SOURCES.md</a>.</sub></p>
 
 <p align="center"><sub>Built by <a href="https://rvaclassic.xyz">Matt Sim</a>, founder of <a href="https://operatoruplift.com">Operator Uplift</a>. More builds at <a href="https://github.com/operatoruplift">github.com/operatoruplift</a>. Want one built for your product? <a href="https://cal.com/rvaclassic/15min">Book a 15-minute call</a>.</sub></p>
