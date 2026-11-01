@@ -8,7 +8,7 @@ Hackathon prize pools below are event totals, not Matt's personal winnings.
 
 ## Operator Uplift
 
-- [Operator Uplift](https://operatoruplift.com/): A stake in keeping your word. Choose a commitment, stake money and submit photo or app proof. Keep your commitment and your stake comes back; miss it and 96% of your stake goes to the people who finished. Built on Solana and live in the Solana Mobile Seeker dApp Store, with 2,200+ accounts (separate from the waitlist).
+- [Operator Uplift](https://operatoruplift.com/): A stake in keeping your word. Choose a commitment, stake money and submit photo or app proof. Keep your commitment and your stake comes back; miss it and 96% of your stake goes to the people who finished. Built on Solana and live in the Solana Mobile Seeker dApp Store, with 2,300+ accounts (separate from the waitlist).
 - Operator Uplift received a $1,000 Solana Foundation grant via Superteam Malaysia.
 
 ## Builds

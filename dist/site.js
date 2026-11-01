@@ -18,3 +18,24 @@
   dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
   dialog.addEventListener('close', () => player.pause());
 })();
+
+(() => {
+  const root = document.querySelector('[data-raised]');
+  if (!root) return;
+  const goal = 2000;
+  const raised = Number(root.dataset.raised);
+  const amount = Number.isFinite(raised) ? Math.max(0, raised) : 0;
+  const pct = Math.min(100, (amount / goal) * 100);
+  const label = root.querySelector('[data-raised-text]');
+  const bar = root.querySelector('[role="progressbar"]');
+  const fill = root.querySelector('.funding-progress-fill');
+  const raisedText = `$${amount.toLocaleString('en-US')} raised`;
+  const valueText = `${raisedText} of $2,000`;
+  if (label) label.textContent = raisedText;
+  if (bar) {
+    bar.setAttribute('aria-valuenow', String(amount));
+    bar.setAttribute('aria-valuemax', String(goal));
+    bar.setAttribute('aria-valuetext', valueText);
+  }
+  if (fill) fill.style.width = `${pct}%`;
+})();

@@ -172,7 +172,12 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .content-watch .icon { width: 17px; height: 17px; }
 
 /* Main sponsorship cards */
-.funding-deadline { margin-bottom: 24px; padding: 16px 20px; border-left: 3px solid var(--purple); background: var(--lilac); color: var(--purple); font-size: 20px; line-height: 1.4; }
+.funding-deadline { margin-bottom: 12px; padding: 16px 20px; border-left: 3px solid var(--purple); background: var(--lilac); color: var(--purple); font-size: 20px; line-height: 1.4; }
+.trip-dates { margin: 0 0 16px; color: var(--muted); font-size: 16px; line-height: 1.5; }
+.funding-progress { margin: 0 0 24px; }
+.funding-progress p { margin: 0 0 8px; color: var(--ink); font-size: 16px; line-height: 1.4; }
+.funding-progress-track { height: 12px; overflow: hidden; border: 1px solid #d9c5ef; border-radius: 999px; background: var(--lilac); }
+.funding-progress-fill { display: block; height: 100%; width: 0; background: var(--purple); }
 .package-grid { display: grid; grid-template-columns: 1fr 1fr; align-items: stretch; gap: 24px; }
 .package { min-width: 0; border: 1px solid var(--line); background: var(--paper); }
 .package.premium { border-color: #b58bdf; box-shadow: 0 8px 36px rgb(105 40 195 / 6%); }
@@ -204,7 +209,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .contact-cta-compact { margin-top: auto; padding: 14px 16px; border-color: #d9c5ef; background: #f8f3ff; color: var(--purple); font-size: 14px; }
 .lead-note { margin-top: 18px; color: var(--muted); font-size: 14px; line-height: 1.7; text-align: center; }
 
-/* Smaller ways to support a longer stay */
+/* Smaller tiers on the short trip */
 .stay { border-top: 1px solid var(--line); }
 .stay>h2 { margin-bottom: 38px; }
 .support-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
