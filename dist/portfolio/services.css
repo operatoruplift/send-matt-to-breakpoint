@@ -1,5 +1,7 @@
 /* Native, keyboard-accessible package disclosures. */
 .p-services-heading { margin-bottom:32px; }
+/* The offer sits directly above the footer, so the card edge replaces the footer divider. */
+.p-services + .p-contact { border-top:0; }
 .p-services-heading .p-display { font-size:clamp(42px,6vw,72px); }
 .p-custom-offer { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:40px; padding:38px; border-radius:22px; background:#21162f; color:#f4f4f6; }
 .p-offer-label { margin:0 0 12px!important; font-size:12px; line-height:1.5; font-weight:400; }

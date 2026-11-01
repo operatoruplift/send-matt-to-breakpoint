@@ -1,12 +1,82 @@
-# Matt Sim (rvaclassic)
-> Founder of Operator Uplift. Builds products, sells services, and creates launch content. Based in Southeast Asia. 17 hackathon prize finishes.
+# Matt Sim (RVAClassic)
+
+> Founder of Operator Uplift. Builds products, sells services and creates launch content. 17 hackathon prize finishes. Based in Southeast Asia.
+
+Matt Sim, known online as RVAClassic, builds products on Solana, competes in hackathons, hosts founder events, and makes launch videos and event films. Before Solana he founded Velocity Esports at 14 and made $1M+ in door-to-door sales.
+
+Hackathon prize pools below are event totals, not Matt's personal winnings.
+
+## Operator Uplift
+
+- [Operator Uplift](https://operatoruplift.com/): A stake in keeping your word. Choose a commitment, stake money and submit photo or app proof. Keep your commitment and your stake comes back; miss it and 96% of your stake goes to the people who finished. Built on Solana and live in the Solana Mobile Seeker dApp Store, with 2,200+ accounts (separate from the waitlist).
+- Operator Uplift received a $1,000 Solana Foundation grant via Superteam Malaysia.
+
+## Builds
+
+- [COLD](https://coldthecompany.vercel.app/): Open-source AI outbound workspace. It finds prospects, drafts cold emails and DMs, preps calls and sorts replies, and a person approves every send. Early access by waitlist.
+- [Dragon Connector](https://dragonconnectorapp.vercel.app/): Installable, offline-ready participant app for Dragon Connector · Da Nang / 001, the Solana Mobile and AI hackathon Matt is organizing (in planning).
+- [Buffer](https://bufferonsolana.vercel.app/): Read-only Solana perpetual-position scenarios with visible assumptions, coverage and per-position math.
+- [Velocity AI](https://omnivoiceai.vercel.app/): Voice-AI speed-to-lead website for calling, qualifying and routing inbound leads. 1st place at the OmniDimension Voice AI Hackathon.
+- [DLMM](https://road-to-bp2026-dlmm.vercel.app/): A beginner-friendly Meteora DLMM guide with visual lessons, quizzes and a liquidity playground.
+- [Allowance](https://allowanceonsolana.vercel.app/): Human-approved budgets for AI agents buying Solana data through x402, with visible decisions and receipts.
+- [Eva Tarot](https://evatarot.xyz/): Client website, launch video and social strategy for a local Vietnamese business.
+- [LOFI 247](https://github.com/operatoruplift/lofi247): Self-hosted 24/7 lofi radio station that streams live to X.
+- Also built: [Superteam Malaysia](https://superteammalaysia.vercel.app/), [Margin Protector AI](https://marginprotectorai.vercel.app/), [Lotline](https://lotline.dev/), [Sphere](https://sphereofinfluence.vercel.app/), [RWA Lens](https://rwalensonsolana.vercel.app/), [Striker Terminal](https://strikerterminal.vercel.app/) and [Breakpoint APAC](https://breakpoint-apac.vercel.app/).
+
+## Hackathons
+
+17 hackathon prize finishes. Selected results:
+
+- 1st place: Superteam United Kingdom × HelpBnk Hackathon ($10,000 prize pool)
+- 1st place: MuShanghai Filecoin Hackathon ($1,500 prize pool)
+- 1st place: OmniDimension Voice AI Hackathon ($1,000 prize pool)
+- Winner: Superteam Thailand × DFlow Hackathon ($1,500 prize pool)
+- 2nd place: Superteam Malaysia Website Hackathon ($3,000 prize pool)
+- 3rd place: Stack Auth Hackathon ($1,750 prize pool)
+
+## Events
+
+- Private GTM Dinner for Photon: 600 RSVPs and 120 accepted guests. Co-hosted with one week to plan.
+- Hacker House Launch Event for The Residency: 500 RSVPs, with 100–200 people present over 5–6 hours. Hosted and ran it.
+- Networking Event & Pitch Competition for icm.run: 400 RSVPs and 75 attendees. Set up in four days.
+- Popup Hackathon sponsored by Lovable: 24 teams. Set up in under 24 hours and ran it end to end.
+- In planning: Dragon Connector · Da Nang / 001, a Solana Mobile and AI hackathon in Da Nang, Vietnam, with Matt as Lead Executive Producer. Dates, venue, funding and prizes are still proposals.
+
+## Creator
+
+- Founder interviews, event coverage and short-form edits on [TikTok](https://www.tiktok.com/@rvaclassic) and [YouTube](https://www.youtube.com/@rvaclassic). 7K LinkedIn followers (October 2026).
+- Client films: the launch video and product demo for Helm Trading. Photography and video for Photon.
+
+## Interviews and articles
+
+- [Web3 TV — Founder of Operator Uplift at Breakpoint 2025](https://www.youtube.com/watch?v=bd5P4LVTSeE)
+- [Ivy Tier — Starting Virginia Velocity at 14](https://www.youtube.com/watch?v=hMhkIQyLEXo)
+- [Web3 Educator — Showcase with Yinusa: Operator Uplift](https://www.youtube.com/watch?v=Da29BFeaadk)
+- [Benyam Ephrem — From hacker houses to building my own path](https://x.com/bephrem/status/1986841083511185771)
+- [Outpost Lookout, Episode 2 — Keep Your Word, Bet on Yourself](https://x.com/outpostcast_/status/2111444057046257950)
+- [CEO Weekly — Matt Sim on What Elite Esports Taught Him About Performance](https://ceoweekly.com/matt-sim-on-what-elite-esports-taught-him-about-performance/) (branded content)
+- [Voyage New York — Matt Sim and the Case for Depth Over Breadth](https://voyageny.com/matt-sim-and-the-case-for-depth-over-breadth/) (branded content)
+- [New York Weekly — Matt Sim and the Idea That Discipline Is Built, Not Born](https://nyweekly.com/entrepreneur/matt-sim-and-the-idea-that-discipline-is-built-not-born/) (branded content)
 
 ## Services
-- Custom product, GTM and launch video partnerships: from $2,500
-- Starter Launch Drop: $100, plus $50/month hosting and maintenance
 
-## Links
-- [Home](https://rvaclassic.xyz/)
-- [Breakpoint sponsorship](https://breakpoint.rvaclassic.xyz/)
-- X: https://x.com/rvaclassic
-- Operator Uplift: https://www.operatoruplift.com
+- Custom Product, GTM & Launch Video Partner: from $2,500. Scope, milestones and delivery are agreed before kickoff.
+- Starter Launch Drop: $100 one-time website and launch package, plus $50/month for hosting and maintenance.
+- Video editing, graphic design, social media management and business development: quoted per project.
+- [Book a 15-minute call](https://cal.com/rvaclassic/15min)
+
+## Contact
+
+- [Website](https://rvaclassic.xyz/)
+- Email: operatoruplift@gmail.com
+- [X: @RVAClassic](https://x.com/rvaclassic)
+- [LinkedIn: Matt Sim](https://www.linkedin.com/in/rvaclassic/)
+- [GitHub: operatoruplift](https://github.com/operatoruplift)
+- [TikTok: @rvaclassic](https://www.tiktok.com/@rvaclassic)
+- [YouTube: @rvaclassic](https://www.youtube.com/@rvaclassic)
+- [Instagram: @rvaclassic](https://www.instagram.com/rvaclassic/)
+- [Telegram: @operatoruplift](https://t.me/operatoruplift)
+
+## Optional
+
+- [Brand kit](https://rvaclassic.xyz/portfolio/brand/): Logos, favicons, fonts, tokens and the brand guide.
