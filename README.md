@@ -12,7 +12,7 @@
 
 <a href="https://breakpoint.rvaclassic.xyz"><img src="https://img.shields.io/website?url=https%3A%2F%2Fbreakpoint.rvaclassic.xyz&label=sponsor%20page&up_message=live&down_message=down&up_color=34d399&labelColor=21152E&style=flat-square" alt="Sponsor page status"></a>
 <a href="https://rvaclassic.xyz"><img src="https://img.shields.io/website?url=https%3A%2F%2Frvaclassic.xyz&label=portfolio&up_message=live&down_message=down&up_color=34d399&labelColor=21152E&style=flat-square" alt="Portfolio status"></a>
-<img src="https://img.shields.io/badge/packages-%24250_to_%242%2C500-6928C3?style=flat-square&labelColor=21152E" alt="Packages from $250 to $2,500">
+<img src="https://img.shields.io/badge/packages-%24100_to_%24800-6928C3?style=flat-square&labelColor=21152E" alt="Packages from $100 to $800">
 <img src="https://img.shields.io/badge/event-Breakpoint_2026%2C_London-AA67FB?style=flat-square&logo=solana&logoColor=white&labelColor=21152E" alt="Event: Breakpoint 2026, London">
 <img src="https://img.shields.io/badge/build-none%2C_static_HTML-14F195?style=flat-square&labelColor=21152E" alt="No build step, static HTML">
 <img src="https://img.shields.io/badge/hosted_on-Vercel-000000?style=flat-square&logo=vercel&logoColor=white&labelColor=21152E" alt="Hosted on Vercel">
@@ -42,7 +42,7 @@
 
 <p align="center"><sub>Captured at phone size from a local copy of <code>dist/</code> on 30 October 2026. Prices, dates and view counts are the page's own.</sub></p>
 
-**Send Matt to Breakpoint is the sponsor page for Matt Sim (RVAClassic), founder of Operator Uplift, to attend the London Hacker House and Solana Breakpoint 2026 in London.** It shows what is already secured, introduces Matt, and offers four packages from $250 to $2,500. There is no checkout: every package button opens an email to Matt with the package in the subject line, and sponsors can also DM him on X or Telegram.
+**Send Matt to Breakpoint is the sponsor page for Matt Sim (RVAClassic), founder of Operator Uplift, for a Nov 14–18 London trip. Breakpoint itself is Nov 15–17.** It shows what is already secured, introduces Matt, and offers four packages from $100 to $800 toward a $2,000 goal. There is no checkout: every package button opens an email to Matt with the package in the subject line, and sponsors can also DM him on X or Telegram.
 
 The same repository serves Matt's portfolio at [rvaclassic.xyz](https://rvaclassic.xyz) from one Vercel project. Both sites are hand-written static files in `dist/`, with no framework and no build step.
 
@@ -78,28 +78,28 @@ As listed on the sponsor page. Each **Email Matt** button opens a pre-filled ema
     <th width="64%" align="left">What the sponsor gets</th>
   </tr>
   <tr valign="top">
-    <td><b>Title Partner</b><br><sub>1 lead slot</sub></td>
-    <td>$2,500</td>
-    <td>One extra Breakpoint ticket included ($550 hard value offset). Backpack, laptop and shirt branding throughout Breakpoint. 3 native TikToks or Reels from your booth or activation. 1 protocol deep-dive X thread to 10k+ ecosystem builders. On-the-ground networking and lead gen.</td>
+    <td><b>Title</b></td>
+    <td>$800</td>
+    <td>Matt’s one remaining Breakpoint ticket, the only one available. Logo on laptop and shirt all 3 days. 2 short videos. An X thread recap. Intros at the venue.</td>
   </tr>
   <tr valign="top">
-    <td><b>Co-Sponsor</b><br><sub>1 lead slot</sub></td>
-    <td>$1,000</td>
-    <td>Laptop branding throughout Breakpoint. 1 dedicated native short-form video. Shoutouts in every Breakpoint recap thread.</td>
+    <td><b>Co-Sponsor</b></td>
+    <td>$400</td>
+    <td>A laptop sticker. 1 video. Named in each daily recap.</td>
   </tr>
   <tr valign="top">
-    <td><b>Content Partner</b></td>
-    <td>$500</td>
-    <td>1 native short-form video for your brand. Your logo on the sponsor page. A dedicated thank-you on X.</td>
+    <td><b>Content</b></td>
+    <td>$200</td>
+    <td>Draft, needs Matt’s review: a dedicated X post and a logo on the site.</td>
   </tr>
   <tr valign="top">
-    <td><b>Stay Supporter</b></td>
-    <td>$250</td>
-    <td>Your logo on the sponsor page. A dedicated thank-you on X. Helps cover accommodation and daily costs.</td>
+    <td><b>Supporter</b></td>
+    <td>$100</td>
+    <td>Draft, needs Matt’s review: their name on the site and a thank-you shoutout.</td>
   </tr>
 </table>
 
-The page's own terms: Hacker House attendance depends on timely visa approval and sufficient sponsorship funding. Packages cover Breakpoint; Hacker House participation is not guaranteed. To lock in a package, DM Matt on [X (@rvaclassic)](https://x.com/rvaclassic) or [Telegram (@operatoruplift)](https://t.me/operatoruplift).
+The page's own terms: packages fund the Nov 14–18 London trip. Breakpoint itself is Nov 15–17. The funding deadline is Sun Nov 8, 2026, 11:59 PM ICT. $0 is raised toward the $2,000 goal. To lock in a package, DM Matt on [X (@rvaclassic)](https://x.com/rvaclassic) or [Telegram (@operatoruplift)](https://t.me/operatoruplift).
 
 <br>
 
@@ -121,13 +121,13 @@ The page's own terms: Hacker House attendance depends on timely visa approval an
 <table>
   <tr valign="top">
     <td width="16%" align="center"><img src="https://img.shields.io/badge/LIVE-34d399?style=for-the-badge" alt="Live"></td>
-    <td>The sponsor page at <a href="https://breakpoint.rvaclassic.xyz">breakpoint.rvaclassic.xyz</a>, also at <a href="https://send-matt-to-breakpoint.vercel.app">send-matt-to-breakpoint.vercel.app</a>. It lists a funding deadline of October 30, ahead of the London Hacker House (1 to 12 November) and Breakpoint 2026 (15 to 17 November).</td>
+    <td>The sponsor page at <a href="https://breakpoint.rvaclassic.xyz">breakpoint.rvaclassic.xyz</a>, also at <a href="https://send-matt-to-breakpoint.vercel.app">send-matt-to-breakpoint.vercel.app</a>. The funding deadline is Sun Nov 8, 2026, 11:59 PM ICT. The trip is Nov 14–18. Breakpoint itself is Nov 15–17.</td>
     <td width="22%"><a href="https://breakpoint.rvaclassic.xyz">Sponsor page</a></td>
   </tr>
   <tr valign="top">
     <td align="center"><img src="https://img.shields.io/badge/SECURED-C0E021?style=for-the-badge" alt="Secured"></td>
-    <td>Per the page: London Hacker House accepted, a Breakpoint 2026 Creator Pass, and one extra Breakpoint pass via Superteam Earn, which is included with the Title Partner package.</td>
-    <td><a href="dist/assets/all-in-one-day-one-pass.webp">All in One Day graphic</a></td>
+    <td>Per the page: London Hacker House accepted, a Breakpoint 2026 Creator Pass, and Matt’s one remaining Breakpoint ticket, the only one available, included with Title.</td>
+    <td><a href="dist/assets/london-breakpoint.webp">London Bound graphic</a></td>
   </tr>
   <tr valign="top">
     <td align="center"><img src="https://img.shields.io/badge/LIVE-34d399?style=for-the-badge" alt="Live"></td>
@@ -207,7 +207,7 @@ Archivo and IBM Plex Mono provide an open-source approximation of the official B
 
 The London background image comes from the official Solana Breakpoint website. Brand names, logos, personal imagery and sponsorship content identify their respective owners. The red backpack and MacBook artwork was edited with built-in imagegen and compressed to WebP for the site. TikTok view counts were supplied by Matt on October 15, 2026.
 
-The All in One Day graphic and the 88-second sponsorship video were supplied by Matt on October 16, 2026. The video keeps its original 1080p60 H.264/AAC streams, with the MP4 metadata moved to the front for streaming, and loads only when Play Video is selected. The sponsor proof graphic was updated to one extra pass on October 22, 2026 using built-in imagegen; the existing reel carries a current-allocation notice.
+The 88-second sponsorship video was supplied by Matt on October 16, 2026. It keeps its original 1080p60 H.264/AAC streams, with the MP4 metadata moved to the front for streaming, and loads only when Play Video is selected. The sponsor proof graphic is now London Bound (`dist/assets/london-breakpoint.webp`): the London trip Nov 14–18, 2026, and Solana Breakpoint Nov 15–17 at Olympia London. The video still carries a current-allocation notice.
 
 <details>
 <summary><b>Portfolio content and attribution notes</b></summary>
