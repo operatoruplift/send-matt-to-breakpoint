@@ -199,6 +199,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .ticket-bonus-featured .icon { width: 20px; height: 20px; margin: 0; color: var(--ink); }
 .ticket-bonus.ticket-bonus-featured strong { color: var(--ink); font-size: 16px; }
 .package-list { display: grid; gap: 14px; margin-top: 24px; }
+.tier-perk { margin-top: 24px; color: var(--muted); font-size: 14px; line-height: 1.7; }
+.support-body .tier-perk { width: 100%; }
 .package-list li { position: relative; padding-left: 22px; color: var(--muted); font-size: 14px; line-height: 1.7; }
 .package-list li::before { content: '+'; position: absolute; top: 0; left: 0; color: var(--purple); font-size: 16px; font-weight: 600; }
 .package-list strong { color: var(--ink); font-weight: 600; }

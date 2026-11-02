@@ -78,24 +78,24 @@ As listed on the sponsor page. Each **Email Matt** button opens a pre-filled ema
     <th width="64%" align="left">What the sponsor gets</th>
   </tr>
   <tr valign="top">
-    <td><b>Title</b></td>
+    <td><b>🔥 Title Partner</b></td>
     <td>$800</td>
-    <td>Logo on laptop and shirt all 3 days. 2 short videos. An X thread recap. Intros at the venue.</td>
+    <td>Your logo on my backpack and laptop all 3 days, 2 short-form videos, an X thread recap, and warm intros at the venue.</td>
   </tr>
   <tr valign="top">
-    <td><b>Co-Sponsor</b></td>
+    <td><b>⚡ Co-Sponsor</b></td>
     <td>$400</td>
-    <td>A laptop sticker. 1 video. Named in each daily recap.</td>
+    <td>Laptop sticker, 1 short video, and a shoutout in every daily recap.</td>
   </tr>
   <tr valign="top">
-    <td><b>Content</b></td>
+    <td><b>🎬 Content Tier</b></td>
     <td>$200</td>
-    <td>Draft, needs Matt’s review: a dedicated X post and a logo on the site.</td>
+    <td>A dedicated X post and your logo on the site.</td>
   </tr>
   <tr valign="top">
-    <td><b>Supporter</b></td>
+    <td><b>🤝 Supporter</b></td>
     <td>$100</td>
-    <td>Draft, needs Matt’s review: their name on the site and a thank-you shoutout.</td>
+    <td>Your name on the site and a thank-you shoutout on X.</td>
   </tr>
 </table>
 
