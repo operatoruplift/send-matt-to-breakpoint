@@ -78,24 +78,24 @@ As listed on the sponsor page. Each **Email Matt** button opens a pre-filled ema
     <th width="64%" align="left">What the sponsor gets</th>
   </tr>
   <tr valign="top">
-    <td><b>Title</b></td>
+    <td><b>🔥 Title Partner</b></td>
     <td>$800</td>
-    <td>Matt’s one remaining Breakpoint ticket, the only one available. Logo on laptop and shirt all 3 days. 2 short videos. An X thread recap. Intros at the venue.</td>
+    <td>Your logo on my backpack and laptop all 3 days, 2 short-form videos, an X thread recap, and warm intros at the venue.</td>
   </tr>
   <tr valign="top">
-    <td><b>Co-Sponsor</b></td>
+    <td><b>⚡ Co-Sponsor</b></td>
     <td>$400</td>
-    <td>A laptop sticker. 1 video. Named in each daily recap.</td>
+    <td>Laptop sticker, 1 short video, and a shoutout in every daily recap.</td>
   </tr>
   <tr valign="top">
-    <td><b>Content</b></td>
+    <td><b>🎬 Content Tier</b></td>
     <td>$200</td>
-    <td>Draft, needs Matt’s review: a dedicated X post and a logo on the site.</td>
+    <td>A dedicated X post and your logo on the site.</td>
   </tr>
   <tr valign="top">
-    <td><b>Supporter</b></td>
+    <td><b>🤝 Supporter</b></td>
     <td>$100</td>
-    <td>Draft, needs Matt’s review: their name on the site and a thank-you shoutout.</td>
+    <td>Your name on the site and a thank-you shoutout on X.</td>
   </tr>
 </table>
 
@@ -126,7 +126,7 @@ The page's own terms: packages fund the Nov 14–18 London trip. Breakpoint itse
   </tr>
   <tr valign="top">
     <td align="center"><img src="https://img.shields.io/badge/SECURED-C0E021?style=for-the-badge" alt="Secured"></td>
-    <td>Per the page: London Hacker House accepted, a Breakpoint 2026 Creator Pass, and Matt’s one remaining Breakpoint ticket, the only one available, included with Title.</td>
+    <td>Per the page: London Hacker House accepted and a Breakpoint 2026 Creator Pass.</td>
     <td><a href="dist/assets/london-breakpoint.webp">London Bound graphic</a></td>
   </tr>
   <tr valign="top">
@@ -207,7 +207,7 @@ Archivo and IBM Plex Mono provide an open-source approximation of the official B
 
 The London background image comes from the official Solana Breakpoint website. Brand names, logos, personal imagery and sponsorship content identify their respective owners. The red backpack and MacBook artwork was edited with built-in imagegen and compressed to WebP for the site. TikTok view counts were supplied by Matt on October 15, 2026.
 
-The 88-second sponsorship video was supplied by Matt on October 16, 2026. It keeps its original 1080p60 H.264/AAC streams, with the MP4 metadata moved to the front for streaming, and loads only when Play Video is selected. The sponsor proof graphic is now London Bound (`dist/assets/london-breakpoint.webp`): the London trip Nov 14–18, 2026, and Solana Breakpoint Nov 15–17 at Olympia London. The video still carries a current-allocation notice.
+The 88-second sponsorship video was supplied by Matt on October 16, 2026. It keeps its original 1080p60 H.264/AAC streams, with the MP4 metadata moved to the front for streaming, and loads only when Play Video is selected. The sponsor proof graphic is now London Bound (`dist/assets/london-breakpoint.webp`): the London trip Nov 14–18, 2026, and Solana Breakpoint Nov 15–17 at Olympia London.
 
 <details>
 <summary><b>Portfolio content and attribution notes</b></summary>
