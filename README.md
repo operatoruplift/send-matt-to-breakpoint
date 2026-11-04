@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/readme/banner.png" alt="Send Matt to Breakpoint, a sponsor page for Solana Breakpoint 2026. Sponsor the London trip. A mobile-first sponsor page for the London Hacker House and Breakpoint 2026. Four packages, from $250 to $2,500, booked by email or DM. Hacker House accepted, Creator Pass secured, 1x extra pass secured, from $250. breakpoint.rvaclassic.xyz. Beside the copy, the page's hero with a red backpack and a laptop, and the Title Partner package on a phone." width="100%">
+<img src="docs/readme/banner.png" alt="Send Matt to Breakpoint, a sponsor page for Solana Breakpoint 2026. Sponsor the London trip. A mobile-first sponsor page for a Nov 14–18 London trip and Breakpoint 2026. Four tiers, from $100 to $800, booked by email or DM. Hacker House accepted, Creator Pass secured, $2,000 goal by Nov 8, from $100. breakpoint.rvaclassic.xyz. Beside the copy, the page's hero with a red backpack and a laptop, and the Title Partner tier on a phone." width="100%">
 
 <br><br>
 
@@ -37,10 +37,10 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/readme/screens-dark.png">
-  <img src="docs/readme/screens-light.png" alt="Four phone screens of the sponsor page. 01, see what is secured: Hacker House accepted, a Creator Pass and one extra pass, plus the 88-second sponsorship video. 02, meet Matt: who he is, the All in One Day graphic, and two TikToks with 34k+ and 29k+ views. 03, choose a partnership: Co-Sponsor at $1,000 or Title Partner at $2,500, one lead slot each. 04, back the longer stay: Stay Supporter at $250 or Content Partner at $500, booked by email or DM." width="100%">
+  <img src="docs/readme/screens-light.png" alt="Four phone screens of the sponsor page. 01, see what is secured: Hacker House accepted and a Creator Pass secured, plus the sponsorship video. 02, meet Matt: who he is, 19 hackathon prize finishes, and the London Bound trip graphic. 03, choose a partnership: Title Partner at $800 or Co-Sponsor at $400, toward a $2,000 goal by Nov 8. 04, pick a smaller tier: Content Tier at $200 or Supporter at $100, booked by email or DM." width="100%">
 </picture>
 
-<p align="center"><sub>Captured at phone size from a local copy of <code>dist/</code> on 30 October 2026. Prices, dates and view counts are the page's own.</sub></p>
+<p align="center"><sub>Captured at phone size from the live page on 4 November 2026. Prices, dates and counts are the page's own.</sub></p>
 
 **Send Matt to Breakpoint is the sponsor page for Matt Sim (RVAClassic), founder of Operator Uplift, for a Nov 14–18 London trip. Breakpoint itself is Nov 15–17.** It shows what is already secured, introduces Matt, and offers four packages from $100 to $800 toward a $2,000 goal. There is no checkout: every package button opens an email to Matt with the package in the subject line, and sponsors can also DM him on X or Telegram.
 
