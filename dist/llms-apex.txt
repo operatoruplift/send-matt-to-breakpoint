@@ -1,6 +1,6 @@
 # Matt Sim (RVAClassic)
 
-> Founder of Operator Uplift. Builds products, sells services and creates launch content. 18 hackathon prize finishes. Based in Southeast Asia.
+> Founder of Operator Uplift. Builds products, sells services and creates launch content. 19 hackathon prize finishes. Based in Southeast Asia.
 
 Matt Sim, known online as RVAClassic, builds products on Solana, competes in hackathons, hosts founder events, and makes launch videos and event films. Before Solana he founded Velocity Esports at 14 and made $1M+ in door-to-door sales.
 
@@ -25,13 +25,14 @@ Hackathon prize pools below are event totals, not Matt's personal winnings.
 
 ## Hackathons
 
-18 hackathon prize finishes. Selected results:
+19 hackathon prize finishes. Selected results:
 
 - 1st place: Superteam United Kingdom × HelpBnk Hackathon ($10,000 prize pool)
 - 1st place: MuShanghai Filecoin Hackathon ($1,500 prize pool)
 - 1st place: OmniDimension Voice AI Hackathon ($1,000 prize pool)
 - Winner: Superteam Thailand × DFlow Hackathon ($1,500 prize pool)
 - Winner: NEAR Intents Pitch Hackathon (San Francisco)
+- Honorable mention: CertiK × Colosseum Security Side Track, with Operator Uplift (CertiK AI Auditor credits)
 - 2nd place: Superteam Malaysia Website Hackathon ($3,000 prize pool)
 - 3rd place: Stack Auth Hackathon ($1,750 prize pool)
 
