@@ -14,7 +14,7 @@ Hackathon prize pools below are event totals, not Matt's personal winnings.
 ## Builds
 
 - [COLD](https://coldthecompany.vercel.app/): Open-source AI outbound workspace. It finds prospects, drafts cold emails and DMs, preps calls and sorts replies, and a person approves every send. Early access by waitlist.
-- [Dragon Connector](https://dragonconnectorapp.vercel.app/): Installable, offline-ready participant app for Dragon Connector · Da Nang / 001, the Solana Mobile and AI hackathon Matt is organizing (in planning).
+- [Dragon Connector](https://dragonconnector.com/app/): Installable, offline-ready participant app for Dragon Connector · Da Nang / 001, the free two-day hackathon for mobile apps on Solana that Matt is organizing in Da Nang on 12 and 13 December 2026.
 - [Buffer](https://bufferonsolana.vercel.app/): Read-only Solana perpetual-position scenarios with visible assumptions, coverage and per-position math.
 - [Velocity AI](https://omnivoiceai.vercel.app/): Voice-AI speed-to-lead website for calling, qualifying and routing inbound leads. 1st place at the OmniDimension Voice AI Hackathon.
 - [DLMM](https://road-to-bp2026-dlmm.vercel.app/): A beginner-friendly Meteora DLMM guide with visual lessons, quizzes and a liquidity playground.
