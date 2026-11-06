@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/readme/banner.png" alt="Send Matt to Breakpoint, a sponsor page for Solana Breakpoint 2026. Sponsor the London trip. A mobile-first sponsor page for a Nov 14–18 London trip and Breakpoint 2026. Four tiers, from $100 to $800, booked by email or DM. Hacker House accepted, Creator Pass secured, $2,000 goal by Nov 8, from $100. breakpoint.rvaclassic.xyz. Beside the copy, the page's hero with a red backpack and a laptop, and the Title Partner tier on a phone." width="100%">
+<img src="docs/readme/banner.png" alt="Send Matt to Breakpoint, a sponsor page for Solana Breakpoint 2026. Sponsor the London trip. A mobile-first sponsor page for a Nov 14 to 18 London trip and Breakpoint 2026. Four tiers, from $100 to $800, booked by email or DM. Hacker House accepted, Creator Pass secured, $2,000 goal by Nov 8, from $100. breakpoint.rvaclassic.xyz. Beside the copy, the page's hero with a red backpack and a laptop, and the Title Partner tier on a phone." width="100%">
 
 <br><br>
 
@@ -42,7 +42,7 @@
 
 <p align="center"><sub>Captured at phone size from the live page on 4 November 2026. Prices, dates and counts are the page's own.</sub></p>
 
-**Send Matt to Breakpoint is the sponsor page for Matt Sim (RVAClassic), founder of Operator Uplift, for a Nov 14–18 London trip. Breakpoint itself is Nov 15–17.** It shows what is already secured, introduces Matt, and offers four packages from $100 to $800 toward a $2,000 goal. There is no checkout: every package button opens an email to Matt with the package in the subject line, and sponsors can also DM him on X or Telegram.
+**Send Matt to Breakpoint is the sponsor page for Matt Sim (RVAClassic), founder of Operator Uplift, for a Nov 14 to 18 London trip. Breakpoint itself is Nov 15 to 17.** It shows what is already secured, introduces Matt, and offers four packages from $100 to $800 toward a $2,000 goal. There is no checkout: every package button opens an email to Matt with the package in the subject line, and sponsors can also DM him on X or Telegram.
 
 The same repository serves Matt's portfolio at [rvaclassic.xyz](https://rvaclassic.xyz) from one Vercel project. Both sites are hand-written static files in `dist/`, with no framework and no build step.
 
@@ -99,7 +99,7 @@ As listed on the sponsor page. Each **Email Matt** button opens a pre-filled ema
   </tr>
 </table>
 
-The page's own terms: packages fund the Nov 14–18 London trip. Breakpoint itself is Nov 15–17. The funding deadline is Sun Nov 8, 2026, 11:59 PM ICT. $0 is raised toward the $2,000 goal. To lock in a package, DM Matt on [X (@rvaclassic)](https://x.com/rvaclassic) or [Telegram (@operatoruplift)](https://t.me/operatoruplift).
+The page's own terms: packages fund the Nov 14 to 18 London trip. Breakpoint itself is Nov 15 to 17. The funding deadline is Sun Nov 8, 2026, 11:59 PM ICT. $0 is raised toward the $2,000 goal. To lock in a package, DM Matt on [X (@rvaclassic)](https://x.com/rvaclassic) or [Telegram (@operatoruplift)](https://t.me/operatoruplift).
 
 <br>
 
@@ -121,7 +121,7 @@ The page's own terms: packages fund the Nov 14–18 London trip. Breakpoint itse
 <table>
   <tr valign="top">
     <td width="16%" align="center"><img src="https://img.shields.io/badge/LIVE-34d399?style=for-the-badge" alt="Live"></td>
-    <td>The sponsor page at <a href="https://breakpoint.rvaclassic.xyz">breakpoint.rvaclassic.xyz</a>, also at <a href="https://send-matt-to-breakpoint.vercel.app">send-matt-to-breakpoint.vercel.app</a>. The funding deadline is Sun Nov 8, 2026, 11:59 PM ICT. The trip is Nov 14–18. Breakpoint itself is Nov 15–17.</td>
+    <td>The sponsor page at <a href="https://breakpoint.rvaclassic.xyz">breakpoint.rvaclassic.xyz</a>, also at <a href="https://send-matt-to-breakpoint.vercel.app">send-matt-to-breakpoint.vercel.app</a>. The funding deadline is Sun Nov 8, 2026, 11:59 PM ICT. The trip is Nov 14 to 18. Breakpoint itself is Nov 15 to 17.</td>
     <td width="22%"><a href="https://breakpoint.rvaclassic.xyz">Sponsor page</a></td>
   </tr>
   <tr valign="top">
@@ -207,7 +207,7 @@ Archivo and IBM Plex Mono provide an open-source approximation of the official B
 
 The London background image comes from the official Solana Breakpoint website. Brand names, logos, personal imagery and sponsorship content identify their respective owners. The red backpack and MacBook artwork was edited with built-in imagegen and compressed to WebP for the site. TikTok view counts were supplied by Matt on October 15, 2026.
 
-The 88-second sponsorship video was supplied by Matt on October 16, 2026. It keeps its original 1080p60 H.264/AAC streams, with the MP4 metadata moved to the front for streaming, and loads only when Play Video is selected. The sponsor proof graphic is now London Bound (`dist/assets/london-breakpoint.webp`): the London trip Nov 14–18, 2026, and Solana Breakpoint Nov 15–17 at Olympia London.
+The 88-second sponsorship video was supplied by Matt on October 16, 2026. It keeps its original 1080p60 H.264/AAC streams, with the MP4 metadata moved to the front for streaming, and loads only when Play Video is selected. The sponsor proof graphic is now London Bound (`dist/assets/london-breakpoint.webp`): the London trip Nov 14 to 18, 2026, and Solana Breakpoint Nov 15 to 17 at Olympia London.
 
 <details>
 <summary><b>Portfolio content and attribution notes</b></summary>
