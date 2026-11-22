@@ -33,7 +33,7 @@ What is not included: guaranteed view counts, token or trading calls, or any pos
 Matt Sim is the founder of Operator Uplift, a Solana commitment app where people put down a refundable commitment deposit and submit AI-checked daily proof. It has 7,150+ accounts and is live in the Solana Mobile Seeker dApp Store as a private ecosystem beta.
 
 - 9,397 followers on X. Figures pulled Nov 22, 2026.
-- 17 hackathon and event wins.
+- 19 hackathon and event wins.
 - 13 years in esports content and competing.
 - Door-to-door sales background ($1M+ in sales).
 - Operator Uplift: https://operatoruplift.com/
