@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="docs/readme/banner.png" alt="Archived screenshot of the previous sponsor page. The current page is Matt Sim's creator sponsorship for Binance Blockchain Week Bangkok." width="100%">
-
-<p align="center"><sub>Archived screenshot of the previous sponsor page. The current offer is the Bangkok creator page described below.</sub></p>
+<img src="docs/readme/banner.png" alt="Matt Sim, @RVAClassic. Independent creator page, Bangkok. Content from the floor. Short videos and X posts from Binance Blockchain Week at QSNCC, Bangkok, 28 to 29 Nov 2026. Spotlight $250, Feature $500, filmed 27 to 30 Nov, email, X or Telegram. binanceweek.rvaclassic.xyz. Beside the copy, the page's yellow hero with its halftone globe on a desktop and the packages section on a phone." width="100%">
 
 <br><br>
 
@@ -13,7 +11,7 @@
 <br><br>
 
 <img src="https://img.shields.io/badge/packages-%24250_and_%24500-F0B90B?style=flat-square&labelColor=0B0E11" alt="Packages at $250 and $500">
-<img src="https://img.shields.io/badge/event-Bangkok%2C_28%E2%80%9329_Nov_2026-FCD535?style=flat-square&labelColor=0B0E11" alt="Event in Bangkok, 28–29 Nov 2026">
+<img src="https://img.shields.io/badge/event-Bangkok%2C_28_to_29_Nov_2026-FCD535?style=flat-square&labelColor=0B0E11" alt="Event in Bangkok, 28 to 29 Nov 2026">
 <img src="https://img.shields.io/badge/build-none%2C_static_HTML-C5CCD4?style=flat-square&labelColor=0B0E11" alt="No build step, static HTML">
 <img src="https://img.shields.io/badge/hosted_on-Vercel-000000?style=flat-square&logo=vercel&logoColor=white&labelColor=0B0E11" alt="Hosted on Vercel">
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-6F6163?style=flat-square&labelColor=0B0E11" alt="License: MIT"></a>
@@ -35,7 +33,14 @@
 
 <br>
 
-**This is an independent creator page for Matt Sim (@RVAClassic).** It offers two content packages for Binance Blockchain Week at QSNCC, Bangkok. The main event is 28–29 Nov 2026. Side events run 27–30 Nov 2026. The page is meant to be served at [binanceweek.rvaclassic.xyz](https://binanceweek.rvaclassic.xyz). It does not use the event company's marks, and the footer states that the page is not affiliated with or endorsed by Binance.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/screens-dark.png">
+  <img src="docs/readme/screens-light.png" alt="Four sections of the page on a phone. 01, meet Matt: what he films and writes on the ground, with no invented product claims and no token promotion. 02, see the posts: recent posts from @RVAClassic with their real view, like and reply counts, pulled on 22 Nov 2026. 03, pick a package: Spotlight at $250 for one video and one post, or Feature at $500 for two videos, a thread and a recap mention. 04, book it: email, X or Telegram; agree the filming window, Matt films 27 to 30 Nov, and final files arrive within 72 hours." width="100%">
+</picture>
+
+<p align="center"><sub>Captured from the live page, binanceweek.rvaclassic.xyz, on 22 November 2026 at phone size.</sub></p>
+
+**This is an independent creator page for Matt Sim (@RVAClassic).** It offers two content packages for Binance Blockchain Week at QSNCC, Bangkok. The main event is 28 to 29 Nov 2026. Side events run 27 to 30 Nov 2026. The page is live at [binanceweek.rvaclassic.xyz](https://binanceweek.rvaclassic.xyz). It does not use the event company's marks, and the footer states that the page is not affiliated with or endorsed by Binance.
 
 There is no checkout. Each package button opens an email to matthew.d.sim@gmail.com with the package in the subject line, and sponsors can also message [@RVAClassic on X](https://x.com/RVAClassic) or [@operatoruplift on Telegram](https://t.me/operatoruplift). Matt is looking for one Feature ($500) and one Spotlight ($250), $750 in total support for the week. The offer is a draft: nothing has been sent or booked.
 
@@ -44,6 +49,11 @@ The same repository serves Matt's portfolio at [rvaclassic.xyz](https://rvaclass
 <br>
 
 ## How it works
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/flow-dark.png">
+  <img src="docs/readme/flow-light.png" alt="dist/, hand-written files: HTML, CSS and a little JavaScript, local images, fonts and video, no package.json and no build step. A git push to main reaches Vercel, which serves it as is: pushes to main deploy production, no install or build command, routes by host before files. Host routing gives two sites from one deploy: the creator page on the binanceweek host and the portfolio on rvaclassic.xyz, with robots, sitemap and llms.txt per host." width="100%">
+</picture>
 
 <table>
   <tr valign="top">
@@ -70,7 +80,7 @@ As listed on the sponsor page. Figures for the X posts were pulled Nov 22, 2026.
   <tr valign="top">
     <td><b>Spotlight</b></td>
     <td>$250</td>
-    <td>1 short video (about 15–60s) filmed at your booth, stage, or side event, plus 1 X post from @RVAClassic. You may repost or embed the finished pieces, with credit.</td>
+    <td>1 short video (about 15 to 60 seconds) filmed at your booth, stage, or side event, plus 1 X post from @RVAClassic. You may repost or embed the finished pieces, with credit.</td>
   </tr>
   <tr valign="top">
     <td><b>Feature</b></td>
@@ -79,7 +89,7 @@ As listed on the sponsor page. Figures for the X posts were pulled Nov 22, 2026.
   </tr>
 </table>
 
-Filmed 27–30 Nov 2026 (Asia/Bangkok). Delivered within 72 hours of filming. What is not included: guaranteed view counts, token or trading calls, or any post that goes out before you have seen the draft if you want a review.
+Filmed 27 to 30 Nov 2026 (Asia/Bangkok). Delivered within 72 hours of filming. What is not included: guaranteed view counts, token or trading calls, or any post that goes out before you have seen the draft if you want a review.
 
 <br>
 
@@ -87,10 +97,10 @@ Filmed 27–30 Nov 2026 (Asia/Bangkok). Delivered within 72 hours of filming. Wh
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/readme/portfolio-dark.png">
-  <img src="docs/readme/portfolio-light.png" alt="Four sections of the portfolio at rvaclassic.xyz. 01, Builder: Operator Uplift first, then hackathon wins, a client website and more builds. 02, Founder: Velocity Esports at 14, the sales floor, three clothing brands and community leadership. 03, Creator: founder interviews, event coverage, and client and event films. 04, Work with Matt: custom projects from $2,500, or the $100 Starter Launch Drop with $50 a month hosting." width="100%">
+  <img src="docs/readme/portfolio-light.png" alt="Four sections of the portfolio at rvaclassic.xyz. 01, Builder: Operator Uplift first, the commitment app on Solana, then hackathon wins, client websites and more builds. 02, Founder: Velocity Esports at 14, the sales floor, three clothing brands and community leadership. 03, Creator: founder interviews and event coverage on @rvaclassic, plus client films for Helm Trading. 04, Work with Matt: custom projects from $2,500, or the $100 Starter Launch Drop with $50 a month hosting." width="100%">
 </picture>
 
-<p align="center"><sub>Captured from a local copy of <code>dist/portfolio/</code> on 30 October 2026. The hero is not shown: its sky video and 3D art load from remote hosts this environment cannot reach.</sub></p>
+<p align="center"><sub>Captured from the live portfolio, rvaclassic.xyz, on 22 November 2026 at 1440 by 900.</sub></p>
 
 [`dist/portfolio/`](dist/portfolio) is Matt's portfolio, served at the apex domain. It has Builder, Founder, Events and Creator sections, with all 19 hackathon prize finishes listed under Builder, a Featured in section with interviews and articles, and Matt's services: custom product, GTM and launch video projects from $2,500, the Starter Launch Drop (a $100 one-time website and launch package, plus $50 a month for hosting and maintenance), and separately quoted video, design, social and business development work. The public RVAClassic brand kit lives at [`/portfolio/brand/`](dist/portfolio/brand), with logos, favicons, fonts, tokens and the brand guide. [`brand.md`](brand.md) records the palette, type, voice and pricing rules.
 
@@ -100,8 +110,8 @@ Filmed 27–30 Nov 2026 (Asia/Bangkok). Delivered within 72 hours of filming. Wh
 
 <table>
   <tr valign="top">
-    <td width="16%" align="center"><img src="https://img.shields.io/badge/READY-F0B90B?style=for-the-badge&labelColor=0B0E11" alt="Ready"></td>
-    <td>The sponsor page is written for <a href="https://binanceweek.rvaclassic.xyz">binanceweek.rvaclassic.xyz</a>. This repository does not attach that domain or change DNS. Main event 28–29 Nov 2026 at QSNCC, Bangkok. Side events 27–30 Nov 2026. Filming 27–30 Nov 2026 (Asia/Bangkok), with delivery within 72 hours.</td>
+    <td width="16%" align="center"><img src="https://img.shields.io/badge/LIVE-34d399?style=for-the-badge" alt="Live"></td>
+    <td>The sponsor page is live at <a href="https://binanceweek.rvaclassic.xyz">binanceweek.rvaclassic.xyz</a>, and the previous sponsor address, breakpoint.rvaclassic.xyz, now shows the same page. Main event 28 to 29 Nov 2026 at QSNCC, Bangkok. Side events 27 to 30 Nov 2026. Filming 27 to 30 Nov 2026 (Asia/Bangkok), with delivery within 72 hours.</td>
     <td width="22%"><a href="https://binanceweek.rvaclassic.xyz">Sponsor page</a></td>
   </tr>
   <tr valign="top">
@@ -163,6 +173,7 @@ Public source: https://github.com/operatoruplift/send-matt-to-breakpoint
 | `dist/index.html` | Sponsor page, Spotlight and Feature, and social metadata for binanceweek.rvaclassic.xyz |
 | `dist/styles.css` | Event-site palette, yellow poster hero, pill buttons, Montserrat, and the motion layer (reveals, timeline, ticker, reduced-motion rules) for the sponsor page |
 | `dist/bbw.js` | Sponsor-page motion: the halftone globe drawn on a canvas (turns toward Bangkok, pauses off screen and for reduced motion), scroll reveals, count-ups, section highlight, the mobile action bar and silent film previews |
+| `dist/assets/binanceweek-og.png` | The 1200 by 630 share image for binanceweek.rvaclassic.xyz, in the page's palette and Montserrat. The page requests it as `?v=2`; raise that number when the image changes so X and Telegram fetch the new one |
 | `dist/assets/land-mask.png` | 360×180 one-bit land and sea grid the globe samples, downsampled from the earth specular map in the three.js examples |
 | `dist/site.js` | Unused video-dialog helper kept from the previous page |
 | `dist/journey.js`, `dist/journey.css` | Previous page animation, not loaded by the current sponsor page |
