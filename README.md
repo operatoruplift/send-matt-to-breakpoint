@@ -53,7 +53,7 @@ The same repository serves Matt's portfolio at [rvaclassic.xyz](https://rvaclass
   </tr>
 </table>
 
-<p align="center"><sub>Static HTML · CSS · IBM Plex Sans from Google Fonts · Vercel host routing</sub></p>
+<p align="center"><sub>Static HTML · CSS · Montserrat from Google Fonts · Vercel host routing</sub></p>
 
 <br>
 
@@ -106,7 +106,7 @@ Filmed 27–30 Nov 2026 (Asia/Bangkok). Delivered within 72 hours of filming. Wh
   </tr>
   <tr valign="top">
     <td align="center"><img src="https://img.shields.io/badge/DRAFT-C5CCD4?style=for-the-badge&labelColor=0B0E11" alt="Draft"></td>
-    <td>Draft offer only. Nothing has been sent or booked. About $500 in total support for the week, through Spotlight ($250) or Feature ($500).</td>
+    <td>About $500 in total support for the week, through Spotlight ($250) or Feature ($500).</td>
     <td><a href="mailto:matthew.d.sim@gmail.com">matthew.d.sim@gmail.com</a></td>
   </tr>
   <tr valign="top">
@@ -161,7 +161,7 @@ Public source: https://github.com/operatoruplift/send-matt-to-breakpoint
 | Path | Contents |
 |---|---|
 | `dist/index.html` | Sponsor page, Spotlight and Feature, and social metadata for binanceweek.rvaclassic.xyz |
-| `dist/styles.css` | Near-black page, card surfaces, yellow accents, and IBM Plex Sans for the sponsor page |
+| `dist/styles.css` | Event-site palette, yellow poster hero, pill buttons, and Montserrat for the sponsor page |
 | `dist/site.js` | Unused video-dialog helper kept from the previous page |
 | `dist/journey.js`, `dist/journey.css` | Previous page animation, not loaded by the current sponsor page |
 | `dist/assets/` | Locally served images, fonts, illustrations and the sponsorship video |
@@ -183,7 +183,7 @@ Public source: https://github.com/operatoruplift/send-matt-to-breakpoint
 
 ## Credits and sources
 
-The sponsor page uses IBM Plex Sans from Google Fonts. Archivo and IBM Plex Mono remain in [`dist/assets/fonts/`](dist/assets/fonts) with their SIL Open Font Licenses, and the current page does not load them.
+The sponsor page uses Montserrat from Google Fonts, a free stand-in for the event site's commercial display face. Archivo and IBM Plex Mono remain in [`dist/assets/fonts/`](dist/assets/fonts) with their SIL Open Font Licenses, and the current page does not load them.
 
 The sponsor page uses Matt's existing portrait and the RVAClassic mark. It does not include the event company's marks, wordmarks, or trademarked art. X metrics on the page are the figures pulled Nov 22, 2026, from the public posts linked there. Older artwork and video files remain in `dist/assets/` and are not used by the current page.
 
