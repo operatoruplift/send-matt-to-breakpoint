@@ -37,7 +37,7 @@
 
 **This is an independent creator page for Matt Sim (@RVAClassic).** It offers two content packages for Binance Blockchain Week at QSNCC, Bangkok. The main event is 28–29 Nov 2026. Side events run 27–30 Nov 2026. The page is meant to be served at [binanceweek.rvaclassic.xyz](https://binanceweek.rvaclassic.xyz). It does not use the event company's marks, and the footer states that the page is not affiliated with or endorsed by Binance.
 
-There is no checkout. Each package button opens an email to matthew.d.sim@gmail.com with the package in the subject line. Matt is looking for about $500 in total support for the week. The offer is a draft: nothing has been sent or booked.
+There is no checkout. Each package button opens an email to matthew.d.sim@gmail.com with the package in the subject line, and sponsors can also message [@RVAClassic on X](https://x.com/RVAClassic) or [@operatoruplift on Telegram](https://t.me/operatoruplift). Matt is looking for one Feature ($500) and one Spotlight ($250), $750 in total support for the week. The offer is a draft: nothing has been sent or booked.
 
 The same repository serves Matt's portfolio at [rvaclassic.xyz](https://rvaclassic.xyz). Both sites are hand-written static files in `dist/`, with no framework and no build step. The previous sponsor page remains in git history.
 
@@ -49,7 +49,7 @@ The same repository serves Matt's portfolio at [rvaclassic.xyz](https://rvaclass
   <tr valign="top">
     <td width="33%"><b>No build step</b><br><sub>Hand-written HTML, CSS and JavaScript in <code>dist/</code>. Vercel runs no install or build command and serves the folder exactly as committed.</sub></td>
     <td width="33%"><b>One deploy, host routing</b><br><sub><a href="vercel.json"><code>vercel.json</code></a> sends <code>rvaclassic.xyz</code> to the portfolio, and sends <code>/llms.txt</code> on the sponsor hosts and on <code>*.vercel.app</code> to the Bangkok offer file.</sub></td>
-    <td width="33%"><b>Email only</b><br><sub>Sponsors write to matthew.d.sim@gmail.com. Spotlight uses the subject “Binance Week Spotlight ($250)”. Feature uses “Binance Week Feature ($500)”.</sub></td>
+    <td width="33%"><b>Email, X or Telegram</b><br><sub>Sponsors write to matthew.d.sim@gmail.com (Spotlight uses the subject “Binance Week Spotlight ($250)”, Feature uses “Binance Week Feature ($500)”), or message @RVAClassic on X or @operatoruplift on Telegram.</sub></td>
   </tr>
 </table>
 
@@ -106,7 +106,7 @@ Filmed 27–30 Nov 2026 (Asia/Bangkok). Delivered within 72 hours of filming. Wh
   </tr>
   <tr valign="top">
     <td align="center"><img src="https://img.shields.io/badge/DRAFT-C5CCD4?style=for-the-badge&labelColor=0B0E11" alt="Draft"></td>
-    <td>About $500 in total support for the week, through Spotlight ($250) or Feature ($500).</td>
+    <td>$750 in total support for the week: one Feature ($500) and one Spotlight ($250).</td>
     <td><a href="mailto:matthew.d.sim@gmail.com">matthew.d.sim@gmail.com</a></td>
   </tr>
   <tr valign="top">
@@ -124,7 +124,7 @@ Filmed 27–30 Nov 2026 (Asia/Bangkok). Delivered within 72 hours of filming. Wh
   <tr valign="top">
     <td width="33%"><b>Prerequisites</b><br><sub>Python 3, or any static file server. Nothing to install or build.</sub></td>
     <td width="33%"><b>Read first</b><br><sub><a href="brand.md">brand.md</a> for the portfolio palette, type and voice, and the <a href="dist/assets/fonts/README.md">font notes</a> before touching typography.</sub></td>
-    <td width="33%"><b>What is not here</b><br><sub>No backend, forms, payments or analytics, and no tests. Sponsors book by email to matthew.d.sim@gmail.com.</sub></td>
+    <td width="33%"><b>What is not here</b><br><sub>No backend, forms, payments or analytics, and no tests. Sponsors book by email to matthew.d.sim@gmail.com, or on X or Telegram.</sub></td>
   </tr>
 </table>
 
@@ -161,7 +161,9 @@ Public source: https://github.com/operatoruplift/send-matt-to-breakpoint
 | Path | Contents |
 |---|---|
 | `dist/index.html` | Sponsor page, Spotlight and Feature, and social metadata for binanceweek.rvaclassic.xyz |
-| `dist/styles.css` | Event-site palette, yellow poster hero, pill buttons, and Montserrat for the sponsor page |
+| `dist/styles.css` | Event-site palette, yellow poster hero, pill buttons, Montserrat, and the motion layer (reveals, timeline, ticker, reduced-motion rules) for the sponsor page |
+| `dist/bbw.js` | Sponsor-page motion: the halftone globe drawn on a canvas (turns toward Bangkok, pauses off screen and for reduced motion), scroll reveals, count-ups, section highlight, the mobile action bar and silent film previews |
+| `dist/assets/land-mask.png` | 360×180 one-bit land and sea grid the globe samples, downsampled from the earth specular map in the three.js examples |
 | `dist/site.js` | Unused video-dialog helper kept from the previous page |
 | `dist/journey.js`, `dist/journey.css` | Previous page animation, not loaded by the current sponsor page |
 | `dist/assets/` | Locally served images, fonts, illustrations and the sponsorship video |
@@ -185,7 +187,7 @@ Public source: https://github.com/operatoruplift/send-matt-to-breakpoint
 
 The sponsor page uses Montserrat from Google Fonts, a free stand-in for the event site's commercial display face. Archivo and IBM Plex Mono remain in [`dist/assets/fonts/`](dist/assets/fonts) with their SIL Open Font Licenses, and the current page does not load them.
 
-The sponsor page uses Matt's existing portrait and the RVAClassic mark. It does not include the event company's marks, wordmarks, or trademarked art. X metrics on the page are the figures pulled Nov 22, 2026, from the public posts linked there. Older artwork and video files remain in `dist/assets/` and are not used by the current page.
+The sponsor page uses Matt's existing portrait and the RVAClassic mark. It does not include the event company's marks, wordmarks, or trademarked art; the hero globe is drawn in code from a land mask. The X and Telegram glyphs come from [Simple Icons](https://simpleicons.org/) (CC0). The event films section reuses the portfolio's Photon and Founders mixer films and links the two TikTok pieces listed there. X metrics on the page are the figures pulled Nov 22, 2026, from the public posts linked there. Older artwork and video files remain in `dist/assets/` and are not used by the current page.
 
 <details>
 <summary><b>Portfolio content and attribution notes</b></summary>
