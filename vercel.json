@@ -30,10 +30,30 @@
       "has": [
         {
           "type": "host",
+          "value": "binanceweek\\.rvaclassic\\.xyz"
+        }
+      ],
+      "dest": "/llms-binanceweek.txt"
+    },
+    {
+      "src": "^/llms\\.txt$",
+      "has": [
+        {
+          "type": "host",
+          "value": "breakpoint\\.rvaclassic\\.xyz"
+        }
+      ],
+      "dest": "/llms-binanceweek.txt"
+    },
+    {
+      "src": "^/llms\\.txt$",
+      "has": [
+        {
+          "type": "host",
           "value": ".*\\.vercel\\.app"
         }
       ],
-      "dest": "/llms-apex.txt"
+      "dest": "/llms-binanceweek.txt"
     },
     {
       "src": "^/sitemap\\.xml$",
@@ -51,6 +71,19 @@
         {
           "type": "host",
           "value": "breakpoint\\.rvaclassic\\.xyz"
+        }
+      ],
+      "status": 308,
+      "headers": {
+        "Location": "https://rvaclassic.xyz/"
+      }
+    },
+    {
+      "src": "^/portfolio/?(?:index\\.html)?$",
+      "has": [
+        {
+          "type": "host",
+          "value": "binanceweek\\.rvaclassic\\.xyz"
         }
       ],
       "status": 308,
