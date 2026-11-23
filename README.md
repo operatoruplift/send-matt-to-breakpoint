@@ -40,7 +40,7 @@
 
 <p align="center"><sub>Captured from the live page, binanceweek.rvaclassic.xyz, on 22 November 2026 at phone size.</sub></p>
 
-**This is an independent creator page for Matt Sim (@RVAClassic).** It offers two content packages for Binance Blockchain Week at QSNCC, Bangkok. The main event is 28 to 29 Nov 2026. Side events run 27 to 30 Nov 2026. The page is live at [binanceweek.rvaclassic.xyz](https://binanceweek.rvaclassic.xyz). The page's own design does not use the event company's marks; the embedded reel, which Matt commissioned for the week, shows the Binance Blockchain Week lockup. The footer states that the page is not affiliated with or endorsed by Binance.
+**This is an independent creator page for Matt Sim (@RVAClassic).** It offers two content packages for Binance Blockchain Week at QSNCC, Bangkok. The main event is 28 to 29 Nov 2026. Side events run 27 to 30 Nov 2026. The page is live at [binanceweek.rvaclassic.xyz](https://binanceweek.rvaclassic.xyz). The page's own design does not use the event company's marks; the embedded reel, made for the week, shows the Binance Blockchain Week lockup. The footer states that the page is not affiliated with or endorsed by Binance.
 
 There is no checkout. Each package button opens an email to matthew.d.sim@gmail.com with the package in the subject line, and sponsors can also message [@RVAClassic on X](https://x.com/RVAClassic) or [@operatoruplift on Telegram](https://t.me/operatoruplift). Matt is looking for one Feature ($500) and one Spotlight ($250), $750 in total support for the week. The offer is a draft: nothing has been sent or booked.
 
