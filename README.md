@@ -69,7 +69,7 @@ The same repository serves Matt's portfolio at [rvaclassic.xyz](https://rvaclass
 
 ## The packages
 
-As listed on the sponsor page. Figures for the X posts were pulled Nov 22, 2026.
+As listed on the sponsor page. Figures for the X posts were pulled Nov 23, 2026.
 
 <table>
   <tr>
@@ -200,7 +200,7 @@ Public source: https://github.com/operatoruplift/send-matt-to-breakpoint
 
 The sponsor page uses Montserrat from Google Fonts, a free stand-in for the event site's commercial display face. Archivo and IBM Plex Mono remain in [`dist/assets/fonts/`](dist/assets/fonts) with their SIL Open Font Licenses, and the current page does not load them.
 
-The sponsor page uses Matt's existing portrait and the RVAClassic mark. Its own design does not include the event company's marks, wordmarks, or trademarked art; the hero globe is drawn in code from a land mask. The exception is the reel in `dist/assets/reel/`: it shows the Binance Blockchain Week lockup traced from the event's Bangkok banner, it is cut to Lil Uzi Vert's "20 Min" (the page credits the song under the player), and its event footage comes from Matt's Photon private dinner and Founders mixer films. The X and Telegram glyphs come from [Simple Icons](https://simpleicons.org/) (CC0). The event films section reuses the portfolio's Photon and Founders mixer films and links the two TikTok pieces listed there. X metrics on the page are the figures pulled Nov 22, 2026, from the public posts linked there. Older artwork and video files remain in `dist/assets/` and are not used by the current page.
+The sponsor page uses Matt's existing portrait and the RVAClassic mark. Its own design does not include the event company's marks, wordmarks, or trademarked art; the hero globe is drawn in code from a land mask. The exception is the reel in `dist/assets/reel/`: it shows the Binance Blockchain Week lockup traced from the event's Bangkok banner, it is cut to Lil Uzi Vert's "20 Min" (the page credits the song under the player), and its event footage comes from Matt's Photon private dinner and Founders mixer films. The X and Telegram glyphs come from [Simple Icons](https://simpleicons.org/) (CC0). The event films section reuses the portfolio's Photon and Founders mixer films and links the two TikTok pieces listed there. X metrics on the page are the figures pulled Nov 23, 2026, from the public posts linked there (views, reposts, quotes and bookmarks through the FxTwitter API; likes and replies checked against X's own syndication endpoint). Older artwork and video files remain in `dist/assets/` and are not used by the current page.
 
 <details>
 <summary><b>Portfolio content and attribution notes</b></summary>
