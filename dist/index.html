@@ -33,6 +33,7 @@
 <link rel="stylesheet" href="/styles.css">
 <script>document.documentElement.classList.replace('no-js', 'js');</script>
 <script src="/bbw.js" defer></script>
+<script src="/reel-player.js" defer></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -97,6 +98,13 @@
   <symbol id="i-tg" viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></symbol>
   <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm17 2-9 6-9-6"/></symbol>
   <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.14v13.72a1 1 0 0 0 1.52.85l11.1-6.86a1 1 0 0 0 0-1.7L9.52 4.29A1 1 0 0 0 8 5.14Z"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><path d="M7 4.5h3.5v15H7zM13.5 4.5H17v15h-3.5z"/></symbol>
+  <symbol id="i-replay" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4.5h4.5"/></symbol>
+  <symbol id="i-vol" viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></symbol>
+  <symbol id="i-mute" viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="m16 9.5 5 5m0-5-5 5"/></symbol>
+  <symbol id="i-full" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></symbol>
+  <symbol id="i-exitfull" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m-5-5 5 5 5-5M5 20h14"/></symbol>
   <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M8 7h9v9"/></symbol>
 </svg>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -107,6 +115,7 @@
       <span>@RVAClassic</span>
     </a>
     <nav class="desktop-nav" aria-label="Page">
+      <a href="#reel">Reel</a>
       <a href="#packages">Packages</a>
       <a href="#films">Films</a>
       <a href="#work">Work</a>
@@ -176,6 +185,52 @@
         <span>Main event 28 to 29 Nov</span><i></i><span>QSNCC, Bangkok</span><i></i><span>Side events 27 to 30 Nov</span><i></i><span>Feature $500</span><i></i><span>Spotlight $250</span><i></i><span>Files within 72 hours</span><i></i>
       </div>
     </div>
+  </section>
+
+  <section class="section wrap reel-section" id="reel" aria-labelledby="reel-title">
+    <div class="section-heading" data-reveal>
+      <p class="kicker">The reel</p>
+      <h2 id="reel-title">54 seconds, <span class="hl">cut to the beat.</span></h2>
+      <p>The week in one reel, with footage from my past event films. Sound on.</p>
+    </div>
+    <figure class="reel" data-reel data-reveal style="--d:1">
+      <div class="reel-frame" tabindex="-1">
+        <video class="reel-video" controls playsinline preload="none" poster="/assets/reel/reel-poster.webp" src="/assets/reel/reel-720p.mp4" data-src-hd="/assets/reel/reel-1080p.mp4" data-src-sd="/assets/reel/reel-720p.mp4" aria-label="RVAClassic reel for Binance Blockchain Week Bangkok, 54 seconds"></video>
+        <span class="reel-corner c1" aria-hidden="true"></span><span class="reel-corner c2" aria-hidden="true"></span><span class="reel-corner c3" aria-hidden="true"></span><span class="reel-corner c4" aria-hidden="true"></span>
+        <div class="reel-spinner" aria-hidden="true"></div>
+        <button class="reel-big" type="button" aria-label="Play the reel with sound"><span class="reel-big-ring" aria-hidden="true"></span><svg aria-hidden="true"><use href="#i-play"/></svg></button>
+        <div class="reel-badge" aria-hidden="true"><span class="live-dot"></span>Reel · 0:54 · sound on</div>
+        <div class="reel-end" hidden>
+          <p class="reel-end-kicker">Book the week</p>
+          <p class="reel-end-title">One Feature and one Spotlight, $750.</p>
+          <div class="reel-end-actions">
+            <a class="button button-gold" href="mailto:matthew.d.sim@gmail.com?subject=Binance%20Week%20Feature%20(%24500)">Book Feature · $500</a>
+            <a class="button button-line" href="mailto:matthew.d.sim@gmail.com?subject=Binance%20Week%20Spotlight%20(%24250)">Book Spotlight · $250</a>
+          </div>
+          <button class="reel-replay" type="button"><svg aria-hidden="true"><use href="#i-replay"/></svg>Watch again</button>
+        </div>
+        <div class="reel-ui" hidden>
+          <div class="reel-track" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="54" aria-valuenow="0" aria-valuetext="0:00 of 0:54">
+            <div class="reel-rail"><div class="reel-buffer"></div><div class="reel-progress"></div></div>
+            <div class="reel-thumb"></div>
+            <div class="reel-tip"><span class="reel-tip-time">0:00</span><span class="reel-tip-ch"></span></div>
+          </div>
+          <div class="reel-row">
+            <button class="reel-btn reel-play" type="button" aria-label="Play"><svg aria-hidden="true"><use href="#i-play"/></svg></button>
+            <span class="reel-time"><span class="reel-cur">0:00</span> / <span class="reel-dur">0:54</span></span>
+            <span class="reel-chapter" aria-live="off">Cold open</span>
+            <span class="reel-spacer"></span>
+            <button class="reel-btn reel-mute" type="button" aria-label="Mute"><svg aria-hidden="true"><use href="#i-vol"/></svg></button>
+            <input class="reel-vol" type="range" min="0" max="1" step="0.05" value="1" aria-label="Volume">
+            <button class="reel-btn reel-fs" type="button" aria-label="Full screen"><svg aria-hidden="true"><use href="#i-full"/></svg></button>
+          </div>
+        </div>
+      </div>
+      <figcaption class="reel-caption">
+        <span>Cut to Lil Uzi Vert’s “20 Min”. Event footage from the Photon private dinner and Founders mixer films.</span>
+        <span class="reel-downloads"><a href="/assets/reel/reel-720p.mp4" download="RVAClassic-BBW-reel-720p.mp4"><svg aria-hidden="true"><use href="#i-down"/></svg>720p · 11 MB</a><a href="/assets/reel/reel-1080p.mp4" download="RVAClassic-BBW-reel-1080p.mp4"><svg aria-hidden="true"><use href="#i-down"/></svg>1080p · 24 MB</a></span>
+      </figcaption>
+    </figure>
   </section>
 
   <section class="section wrap" id="packages" aria-labelledby="packages-title">

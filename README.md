@@ -40,7 +40,7 @@
 
 <p align="center"><sub>Captured from the live page, binanceweek.rvaclassic.xyz, on 22 November 2026 at phone size.</sub></p>
 
-**This is an independent creator page for Matt Sim (@RVAClassic).** It offers two content packages for Binance Blockchain Week at QSNCC, Bangkok. The main event is 28 to 29 Nov 2026. Side events run 27 to 30 Nov 2026. The page is live at [binanceweek.rvaclassic.xyz](https://binanceweek.rvaclassic.xyz). It does not use the event company's marks, and the footer states that the page is not affiliated with or endorsed by Binance.
+**This is an independent creator page for Matt Sim (@RVAClassic).** It offers two content packages for Binance Blockchain Week at QSNCC, Bangkok. The main event is 28 to 29 Nov 2026. Side events run 27 to 30 Nov 2026. The page is live at [binanceweek.rvaclassic.xyz](https://binanceweek.rvaclassic.xyz). The page's own design does not use the event company's marks; the embedded reel, which Matt commissioned for the week, shows the Binance Blockchain Week lockup. The footer states that the page is not affiliated with or endorsed by Binance.
 
 There is no checkout. Each package button opens an email to matthew.d.sim@gmail.com with the package in the subject line, and sponsors can also message [@RVAClassic on X](https://x.com/RVAClassic) or [@operatoruplift on Telegram](https://t.me/operatoruplift). Matt is looking for one Feature ($500) and one Spotlight ($250), $750 in total support for the week. The offer is a draft: nothing has been sent or booked.
 
@@ -175,6 +175,8 @@ Public source: https://github.com/operatoruplift/send-matt-to-breakpoint
 | `dist/bbw.js` | Sponsor-page motion: the halftone globe drawn on a canvas (turns toward Bangkok, pauses off screen and for reduced motion), scroll reveals, count-ups, section highlight, the mobile action bar and silent film previews |
 | `dist/assets/binanceweek-og.png` | The 1200 by 630 share image for binanceweek.rvaclassic.xyz, in the page's palette and Montserrat. The page requests it as `?v=2`; raise that number when the image changes so X and Telegram fetch the new one |
 | `dist/assets/land-mask.png` | 360×180 one-bit land and sea grid the globe samples, downsampled from the earth specular map in the three.js examples |
+| `dist/reel-player.js` | The brand-themed player for the reel: poster with a play button, chaptered timeline with hover preview, keyboard control, sound and full screen, auto-hiding controls, an end screen with the booking buttons. Without it the video keeps its native controls |
+| `dist/assets/reel/` | The 54-second reel at 1080p (24 MB, for sharp screens) and 720p (11 MB, phones and Save-Data), and its poster. Nothing downloads until play |
 | `dist/site.js` | Unused video-dialog helper kept from the previous page |
 | `dist/journey.js`, `dist/journey.css` | Previous page animation, not loaded by the current sponsor page |
 | `dist/assets/` | Locally served images, fonts, illustrations and the sponsorship video |
@@ -198,7 +200,7 @@ Public source: https://github.com/operatoruplift/send-matt-to-breakpoint
 
 The sponsor page uses Montserrat from Google Fonts, a free stand-in for the event site's commercial display face. Archivo and IBM Plex Mono remain in [`dist/assets/fonts/`](dist/assets/fonts) with their SIL Open Font Licenses, and the current page does not load them.
 
-The sponsor page uses Matt's existing portrait and the RVAClassic mark. It does not include the event company's marks, wordmarks, or trademarked art; the hero globe is drawn in code from a land mask. The X and Telegram glyphs come from [Simple Icons](https://simpleicons.org/) (CC0). The event films section reuses the portfolio's Photon and Founders mixer films and links the two TikTok pieces listed there. X metrics on the page are the figures pulled Nov 22, 2026, from the public posts linked there. Older artwork and video files remain in `dist/assets/` and are not used by the current page.
+The sponsor page uses Matt's existing portrait and the RVAClassic mark. Its own design does not include the event company's marks, wordmarks, or trademarked art; the hero globe is drawn in code from a land mask. The exception is the reel in `dist/assets/reel/`: it shows the Binance Blockchain Week lockup traced from the event's Bangkok banner, it is cut to Lil Uzi Vert's "20 Min" (the page credits the song under the player), and its event footage comes from Matt's Photon private dinner and Founders mixer films. The X and Telegram glyphs come from [Simple Icons](https://simpleicons.org/) (CC0). The event films section reuses the portfolio's Photon and Founders mixer films and links the two TikTok pieces listed there. X metrics on the page are the figures pulled Nov 22, 2026, from the public posts linked there. Older artwork and video files remain in `dist/assets/` and are not used by the current page.
 
 <details>
 <summary><b>Portfolio content and attribution notes</b></summary>
